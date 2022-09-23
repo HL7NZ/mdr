@@ -1,4 +1,4 @@
-Extension: nzeps_long_term_medication
+Extension: Nzeps_long_term_medication
 Id: nzeps-long-term-medication
 Title: "NZePS Long Term Medication Indicator"
 Description: "NZePS Long Term Medication Indicator"
