@@ -14,7 +14,8 @@ Description: "NZePS Private Item Indicator"
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 * ^context.type = #element
 * ^context.expression = "MedicationRequest"
-* url = "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify" (exactly)
+// this doesn't look intended, copy/paste?
+// * url = "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify" (exactly)
 * value[x] only boolean
 * value[x] ^label = "NZePS-private-item-indicator"
 * value[x] ^short = "NZePS Private Item Indicator"
