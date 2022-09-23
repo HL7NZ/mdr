@@ -1,4 +1,4 @@
-Extension: nzeps_force_notification
+Extension: NzEpsForceNotification
 Id: nzeps-force-notification
 Title: "NZePS Force Notification Indicator"
 Description: "NZePS Force Notification Indicator"
