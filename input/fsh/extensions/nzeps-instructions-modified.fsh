@@ -1,4 +1,4 @@
-Extension: nzeps-instructions-modified
+Extension: nzeps_instructions_modified
 Id: nzeps-instructions-modified
 Title: "NZePS Patient Instructions Modification Indicator"
 Description: "NZePS Patients Instructions modification indicator"

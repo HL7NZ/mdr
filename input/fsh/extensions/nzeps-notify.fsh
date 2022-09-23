@@ -1,4 +1,4 @@
-Extension: nzeps-notify
+Extension: nzeps_notify
 Id: nzeps-notify
 Title: "NZePS Active Notification Indicator"
 Description: "NZePS Active Notification Indicator"

@@ -1,4 +1,4 @@
-Extension: nzeps-scriptno-local
+Extension: nzeps_scriptno_local
 Id: nzeps-scriptno-local
 Title: "NZePS Local Script Number"
 Description: "NZ Pharmacy Claim Number."

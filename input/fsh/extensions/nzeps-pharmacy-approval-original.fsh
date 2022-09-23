@@ -1,4 +1,4 @@
-Extension: nzeps-pharmacy-approval-original
+Extension: nzeps_pharmacy_approval_original
 Id: nzeps-pharmacy-approval-original
 Title: "NZePS Original Pharmacy Approval Number"
 Description: "The Approval Number of the NZ Pharmacy where a Prescription Item was dispensed."

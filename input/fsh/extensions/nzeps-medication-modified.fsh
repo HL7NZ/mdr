@@ -1,4 +1,4 @@
-Extension: nzeps-medication-modified
+Extension: nzeps_medication_modified
 Id: nzeps-medication-modified
 Title: "NZePS Patient Medication Modification Indicator"
 Description: "NZePS medication modification indicator"

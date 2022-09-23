@@ -1,4 +1,4 @@
-Extension: nzeps-private-item
+Extension: nzeps_private_item
 Id: nzeps-private-item
 Title: "NZePS Private Item Indicator"
 Description: "NZePS Private Item Indicator"

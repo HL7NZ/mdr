@@ -1,4 +1,4 @@
-Extension: nzeps-status-type
+Extension: nzeps_status_type
 Id: nzeps-status-type
 Title: "NZePS Status Type"
 Description: "Status Type of a NZ ePrescription (NZePS)"

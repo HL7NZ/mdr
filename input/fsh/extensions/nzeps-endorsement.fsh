@@ -1,4 +1,4 @@
-Extension: nzeps-endorsement
+Extension: nzeps_endorsement
 Id: nzeps-endorsement
 Title: "NZePS Endorsement"
 Description: "NZ ePrescription (NZePS) Endorsements"

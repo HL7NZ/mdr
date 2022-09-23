@@ -1,4 +1,4 @@
-Extension: nzeps-use-generic-name
+Extension: nzeps_use_generic_name
 Id: nzeps-use-generic-name
 Title: "NZePS Use Generic Drug Name Indicator"
 Description: "NZePS Use Generic Name Indicator"
