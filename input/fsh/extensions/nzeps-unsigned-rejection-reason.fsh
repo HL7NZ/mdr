@@ -1,4 +1,4 @@
-Extension: nzeps_unsigned_rejection_reason
+Extension: NzEpsUnsignedRejectionReason
 Id: nzeps-unsigned-rejection-reason
 Title: "NZePS Unsigned Rejection Reason"
 Description: "Reason(s) why an unsigned prescription has been rejected."

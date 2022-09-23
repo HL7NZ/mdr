@@ -1,4 +1,4 @@
-Extension: nzeps_funding_category
+Extension: NzEpsFundingCategory
 Id: nzeps-funding-category
 Title: "NZePS Funding Category"
 Description: "NZ Funding Category Code - e.g. A1, A3, etc."

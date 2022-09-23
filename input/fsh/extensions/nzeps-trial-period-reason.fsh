@@ -1,4 +1,4 @@
-Extension: nzeps_trial_period_reason
+Extension: NzEpsTrialPeriodReason
 Id: nzeps-trial-period-reason
 Title: "NZePS Trial Period Reason"
 Description: "The reason for any trial period."

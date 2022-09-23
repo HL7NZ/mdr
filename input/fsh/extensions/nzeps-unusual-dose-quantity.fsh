@@ -1,4 +1,4 @@
-Extension: nzeps_unusual_dose_quantity
+Extension: NzEpsUnusualDoseQuantity
 Id: nzeps-unusual-dose-quantity
 Title: "NZePS Unusual Dose Quantity Indicator"
 Description: "NZePS Unusual Dose Quantity Indicator"

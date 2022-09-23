@@ -1,4 +1,4 @@
-Extension: nzeps_supply_period_reason
+Extension: NzEpsSupplyPeriodReason
 Id: nzeps-supply-period-reason
 Title: "NZePS Supply Period Reason"
 Description: "The reason for a non-standard Supply Period."

@@ -1,4 +1,4 @@
-Extension: nzeps_medication_action
+Extension: NzEpsMedicationAction
 Id: nzeps-medication-action
 Title: "NZePS Medication Action Type"
 Description: "Medcation action denoting the relationship of a NZ ePrescription (NZePS) Item within a patient's overall medication regime."

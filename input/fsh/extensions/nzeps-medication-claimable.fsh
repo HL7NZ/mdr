@@ -1,4 +1,4 @@
-Extension: nzeps_medication_claimable
+Extension: NzEpsMedicationClaimable
 Id: nzeps-medication-claimable
 Title: "NZePS Medication Claimable Indicator"
 Description: "NZePS Medication Claimable indicator"
