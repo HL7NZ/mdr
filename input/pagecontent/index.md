@@ -1,3 +1,4 @@
 # MedicinesDataRepository
 
-Feel free to modify this index page with your own awesome content!
+This is the implentation guide for the NZ Medicines Data repository FHIR API. 
+

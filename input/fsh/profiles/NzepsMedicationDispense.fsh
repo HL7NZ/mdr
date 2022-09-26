@@ -9,7 +9,7 @@ Description:    "Medication Dispense resource for use in NZ e-Prescription Servi
 * ^status = #draft
 
 * extension contains
-    $nzeps-endorsement named nzeps-endorsement 0..n and
+    $nzeps-endorsement named nzeps-endorsement 0..* and
     $nzeps-pharmacy-approval-original named nzeps-pharmacy-approval-original 0..1 and
     $nzeps-funding-category named nzeps-funding-category 0..1 and
     $nzeps-scriptno-local named nzeps-scriptno-local 0..1 and

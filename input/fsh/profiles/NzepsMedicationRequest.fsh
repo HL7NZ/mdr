@@ -12,7 +12,7 @@ Description:    "Medication Request resource for use in NZ e-Prescription Servic
     $nzeps-long-term-medication named nzeps-long-term-medication 1..1 and
     $nzeps-supply-period-reason named nzeps-supply-period-reason 0..1 and
     $nzeps-unusual-dose-quantity named nzeps-unusual-dose-quantity 1..1 and
-    $nzeps-endorsement named nzeps-endorsement 0..n and
+    $nzeps-endorsement named nzeps-endorsement 0..* and
     $nzeps-status-type named nzeps-status-type 1..1 and
     $nzeps-medication-action named nzeps-medication-action 1..1 and
     $nzeps-instructions-modified named nzeps-instructions-modified 1..1 and
