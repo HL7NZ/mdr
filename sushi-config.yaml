@@ -75,13 +75,12 @@ publisher:
 menu:
   Home: index.html
   Use Cases: usecases.html
-  Profiles: 
-    "Profiles" : profiles.html
+  Profiles: "Profiles" : profiles.html
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
+    ObservationBodyweight: StructureDefinition-bodyweight.html
   Artifacts: artifacts.html
-  Support:
-    "FHIR Spec" : "{{site.data.fhir.path}}index.html"
+  Support: "FHIR Spec" : "{{site.data.fhir.path}}index.html"
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
