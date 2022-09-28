@@ -75,7 +75,7 @@ publisher:
 menu:
   Home: index.html
   Use Cases: usecases.html
-  Profiles: "Profiles" : profiles.html
+  Profiles: profiles.html
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
