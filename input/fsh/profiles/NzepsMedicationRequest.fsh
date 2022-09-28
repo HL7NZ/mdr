@@ -1,5 +1,5 @@
 Profile:        NzepsMedicationRequest
-Parent:         NzMedicationRequest
+Parent:         MedicationRequest
 Id:             NzepsMedicationRequest
 Title:          "Medication Request resource for use in the NZ e-Prescription Service MDR"
 Description:    "Medication Request resource for use in NZ e-Prescription Service Medications Data Repository"
