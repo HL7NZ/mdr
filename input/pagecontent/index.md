@@ -1,9 +1,9 @@
 # MedicinesDataRepository
 
-## Secure access to prescribing and dispensing information
-This is the implementation guide for the NZ Medicines Data Repository (MDR) FHIR API.
+This is the implementation guide for the NZ Medicines Data Repository (MDR) FHIR API which gives secure access to prescribing and dispensing information. 
 
 ## Overview
+
 The Medicines Data Repository is a trusted source of prescribed and dispensed medicines information for New Zealanders and is based on real time information recieved directly from the New Zealand ePrescription Service (NZePS).
 
 The purpose of the MDR is to provide FHIR based API access to a consolidated single source of NZePS data, accessable via NHI & HPI identifiers as keys, that can be used by consumers and health providers. 
@@ -18,4 +18,5 @@ The MDR API provides the ability to:
 - request records for specific prescribed and dispensed medications.
 
 ## Who can use this API?
+
 Access to the MDR will be for organisations that meet the eligibility criteria related to medicines prescribing, dispensing, reconciliation, and administration. 
