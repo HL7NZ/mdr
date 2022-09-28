@@ -73,14 +73,14 @@ publisher:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-menu:
-  Home: index.html
+#menu:
+#  Home: index.html
 #  Use Cases: usecases.html
 #  Profiles: profiles.html
 #    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
 #    NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
 #    ObservationBodyweight: StructureDefinition-bodyweight.html
-  Artifacts: artifacts.html
+#  Artifacts: artifacts.html
 # Support:
 #    FHIR Spec: new-tab https://hl7.org/fhir/index.html
 #    Download IG : full-ig.zip
