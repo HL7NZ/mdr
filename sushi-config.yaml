@@ -75,15 +75,15 @@ publisher:
 
 menu:
   Home: index.html
-  Use Cases: usecases.html
-  Profiles: profiles.html
-    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
-    NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
-    ObservationBodyweight: StructureDefinition-bodyweight.html
+#  Use Cases: usecases.html
+#  Profiles: profiles.html
+#    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
+#    NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
+#    ObservationBodyweight: StructureDefinition-bodyweight.html
   Artifacts: artifacts.html
-  Support:
-    FHIR Spec: new-tab https://hl7.org/fhir/index.html
-    Download IG : full-ig.zip
+# Support:
+#    FHIR Spec: new-tab https://hl7.org/fhir/index.html
+#    Download IG : full-ig.zip
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
