@@ -75,12 +75,13 @@ publisher:
 
 menu:
   Home: index.html
-  Artefacts: artifacts.html
   Use cases: usecases.html
   Profiles:
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
+  Artefacts: artifacts.html
+
 #  Use Cases: usecases.html
 #  Profiles: profiles.html
 #    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
