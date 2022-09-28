@@ -73,8 +73,9 @@ publisher:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-#menu:
-#  Home: index.html
+menu:
+  Home: index.html
+  Artefacts: artifacts.html
 #  Use Cases: usecases.html
 #  Profiles: profiles.html
 #    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
