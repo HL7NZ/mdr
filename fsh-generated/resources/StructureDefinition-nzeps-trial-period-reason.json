@@ -1,0 +1,86 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nzeps-trial-period-reason",
+  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-trial-period-reason",
+  "version": "1.0",
+  "name": "NzEpsTrialPeriodReason",
+  "title": "NZePS Trial Period Reason",
+  "status": "draft",
+  "date": "2020-07-20",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "The reason for any trial period.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "The reason for any trial period.",
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Trial Period Reason",
+        "definition": "The reason for any trial period."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-trial-period-reason"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "label": "NZePS-trial-period-reason",
+        "short": "NZePS Trial Period Reason",
+        "definition": "The reason for any trial period.",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

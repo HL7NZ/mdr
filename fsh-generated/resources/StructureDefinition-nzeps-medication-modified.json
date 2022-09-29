@@ -1,0 +1,86 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nzeps-medication-modified",
+  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-modified",
+  "version": "1.0",
+  "name": "NzEpsMedicationModified",
+  "title": "NZePS Patient Medication Modification Indicator",
+  "status": "draft",
+  "date": "2020-07-20",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "NZePS medication modification indicator",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Set to true if a dispenser has modified any part of the code (drug). If true, the HIE Broker will create a notification for the Item regardless of the notification settings passed by the prescriber.",
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationRequest"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Patient Medication Modification Indicator",
+        "definition": "NZePS medication modification indicator"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-modified"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "label": "NZePS-medication-modified",
+        "short": "NZePS medication Modified",
+        "definition": "Set to true if a dispenser has modified the patient medication.",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      }
+    ]
+  }
+}

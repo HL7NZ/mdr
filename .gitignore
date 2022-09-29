@@ -1,0 +1,5 @@
+# ignore generated stuff/cache
+/input-cache
+/template
+/temp
+/output

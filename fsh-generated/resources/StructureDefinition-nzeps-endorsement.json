@@ -1,0 +1,179 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nzeps-endorsement",
+  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-endorsement",
+  "version": "1.0",
+  "name": "NzEpsEndorsement",
+  "title": "NZePS Endorsement",
+  "status": "draft",
+  "date": "2020-07-20",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "NZ ePrescription (NZePS) Endorsements",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Represents the NZePS Endorsement Class. This consists of (coded) Type, Value and (optionally) Expiry Date properties.",
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationRequest"
+    },
+    {
+      "type": "element",
+      "expression": "MedicationDispense"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Endorsement",
+        "definition": "NZ ePrescription (NZePS) Endorsements"
+      },
+      {
+        "id": "Extension.extension:endorsementType",
+        "path": "Extension.extension",
+        "sliceName": "endorsementType",
+        "definition": "The type of endorsement",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:endorsementType.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:endorsementType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "endorsementType"
+      },
+      {
+        "id": "Extension.extension:endorsementType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:endorsementType.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org.nz/fhir/ValueSet/nzeps-endorsement-type"
+        }
+      },
+      {
+        "id": "Extension.extension:value",
+        "path": "Extension.extension",
+        "sliceName": "value",
+        "definition": "The endorsement value",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:value.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:value.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "value"
+      },
+      {
+        "id": "Extension.extension:value.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:expiryDate",
+        "path": "Extension.extension",
+        "sliceName": "expiryDate",
+        "definition": "The date the endorsement expires",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:expiryDate.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:expiryDate.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "expiryDate"
+      },
+      {
+        "id": "Extension.extension:expiryDate.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-endorsement"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

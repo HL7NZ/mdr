@@ -81,6 +81,8 @@ menu:
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
   Artefacts: artifacts.html
+  Support:
+    FHIR Spec: new-tab https://hl7.org/fhir/index.html
 
 #  Use Cases: usecases.html
 #  Profiles: profiles.html
