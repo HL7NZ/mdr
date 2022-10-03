@@ -222,6 +222,11 @@
           "nameUrl": "index.html",
           "title": "Home",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecases.html",
+          "title": "Usecases",
+          "generation": "markdown"
         }
       ]
     },
