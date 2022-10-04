@@ -33,7 +33,10 @@
     </ul>
   </li>
   <li>
-    <a href="artifacts.html">Artefacts</a>
+    <a href="artifacts.html#structures-extension-definitions">Extensions</a>
+  </li>
+  <li>
+    <a href="artifacts.html">All Artefacts</a>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support

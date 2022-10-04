@@ -76,11 +76,12 @@ publisher:
 menu:
   Home: index.html
   Use cases: usecases.html
-  Profiles:
+  Profiles: 
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
-  Artefacts: artifacts.html
+  Extensions: artifacts.html#structures-extension-definitions
+  All Artefacts: artifacts.html
   Support:
     FHIR Spec: new-tab https://hl7.org/fhir/index.html
 
