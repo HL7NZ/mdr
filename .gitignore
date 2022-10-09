@@ -3,6 +3,7 @@
 /template
 /temp
 /output
+!/output/full-zip.ig
 /node_modules
 /localscripts
 
