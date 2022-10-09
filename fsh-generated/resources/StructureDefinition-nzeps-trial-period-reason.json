@@ -3,7 +3,7 @@
   "id": "nzeps-trial-period-reason",
   "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-trial-period-reason",
   "version": "1.0",
-  "name": "NzEpsTrialPeriodReason",
+  "name": "nzeps-trial-period-reason",
   "title": "NZePS Trial Period Reason",
   "status": "draft",
   "date": "2020-07-20",
