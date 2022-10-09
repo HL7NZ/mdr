@@ -2,6 +2,7 @@
 /input-cache
 /template
 /temp
+!/output
 /output/*
 !/output/full-zip.ig
 /node_modules
