@@ -211,6 +211,27 @@
         },
         "name": "NZ-MDR",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzeps-batch-id"
+        },
+        "name": "nzeps-batch-id",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzeps-scid-item-id"
+        },
+        "name": "nzeps-scid-item-id",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzmt"
+        },
+        "name": "nzmt",
+        "exampleBoolean": false
       }
     ],
     "page": {

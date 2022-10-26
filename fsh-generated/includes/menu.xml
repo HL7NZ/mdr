@@ -35,6 +35,22 @@
       </li>
     </ul>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Identifiers
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="NamingSystem-nzeps-batch-id.html">Nzeps-batch-id</a>
+      </li>
+      <li>
+        <a href="NamingSystem-nzeps-scid-item-id.html">Nzeps-scid-item-id</a>
+      </li>
+      <li>
+        <a href="NamingSystem-nzmt.html">NZ-medicines-terminology</a>
+      </li>
+    </ul>
+  </li>
   <li>
     <a href="capabilityStatement.html">API</a>
   </li>
@@ -51,6 +67,15 @@
     <ul class="dropdown-menu">
       <li>
         <a target="_blank" href="https://hl7.org/fhir/index.html">FHIR Spec</a>
+      </li>
+      <li>
+        <a href="definitions.json.zip">Artefacts (JSON)</a>
+      </li>
+      <li>
+        <a href="definitions.xml.zip">Artefacts (XML)</a>
+      </li>
+      <li>
+        <a href="full-ig.zip">Download IG</a>
       </li>
     </ul>
   </li>

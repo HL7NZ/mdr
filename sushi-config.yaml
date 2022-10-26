@@ -81,21 +81,19 @@ menu:
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
+  Identifiers:
+    Nzeps-batch-id: NamingSystem-nzeps-batch-id.html
+    Nzeps-scid-item-id: NamingSystem-nzeps-scid-item-id.html
+    NZ-medicines-terminology: NamingSystem-nzmt.html
   API: capabilityStatement.html
   Extensions: artifacts.html#structures-extension-definitions
   All Artefacts: artifacts.html
   Support:
     FHIR Spec: new-tab https://hl7.org/fhir/index.html
+    Artefacts (JSON): definitions.json.zip
+    Artefacts (XML): definitions.xml.zip
+    Download IG: full-ig.zip
 
-#  Use Cases: usecases.html
-#  Profiles: profiles.html
-#    NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
-#    NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
-#    ObservationBodyweight: StructureDefinition-bodyweight.html
-#  Artifacts: artifacts.html
-# Support:
-#    FHIR Spec: new-tab https://hl7.org/fhir/index.html
-#    Download IG : full-ig.zip
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

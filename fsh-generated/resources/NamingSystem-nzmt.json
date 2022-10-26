@@ -1,0 +1,48 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nzmt",
+  "description": "New Zealand Medicines Terminology",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "value": "http://hl7.org.nz",
+          "system": "url"
+        }
+      ],
+      "name": "HL7 New Zealand"
+    }
+  ],
+  "uniqueId": [
+    {
+      "comment": "This value is used in New Zealand CDA documents",
+      "value": "2.16.840.1.113883.2.18.26",
+      "type": "oid"
+    },
+    {
+      "preferred": true,
+      "period": {
+        "start": "2018-01-01"
+      },
+      "value": "http://nzmt.org.nz",
+      "type": "uri"
+    }
+  ],
+  "usage": "Used in New Zealand for uniquely identifying medications",
+  "kind": "codesystem",
+  "date": "2018-01-01",
+  "responsible": "Ministry of Health",
+  "publisher": "HL7 New Zealand",
+  "status": "active",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "name": "nzmt"
+}
