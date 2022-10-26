@@ -75,11 +75,13 @@ publisher:
 
 menu:
   Home: index.html
+  Business Context: businessContext.html
   Use cases: usecases.html
   Profiles: 
     NzEpsMedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NzEpsMedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
+  API: capabilityStatement.html
   Extensions: artifacts.html#structures-extension-definitions
   All Artefacts: artifacts.html
   Support:

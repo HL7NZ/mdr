@@ -224,6 +224,16 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "businessContext.html",
+          "title": "Business Context",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "capabilityStatement.html",
+          "title": "Capability Statement",
+          "generation": "html"
+        },
+        {
           "nameUrl": "usecases.html",
           "title": "Usecases",
           "generation": "markdown"

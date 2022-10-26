@@ -14,6 +14,9 @@
     <a href="index.html">Home</a>
   </li>
   <li>
+    <a href="businessContext.html">Business Context</a>
+  </li>
+  <li>
     <a href="usecases.html">Use cases</a>
   </li>
   <li class="dropdown">
@@ -31,6 +34,9 @@
         <a href="StructureDefinition-bodyweight.html">ObservationBodyweight</a>
       </li>
     </ul>
+  </li>
+  <li>
+    <a href="capabilityStatement.html">API</a>
   </li>
   <li>
     <a href="artifacts.html#structures-extension-definitions">Extensions</a>
