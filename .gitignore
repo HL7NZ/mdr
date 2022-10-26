@@ -4,6 +4,7 @@
 /temp
 /output
 !/output/full-ig.zip
+!/output/NZePS_Data_Model_v3_7.xls
 /node_modules
 /localscripts
 

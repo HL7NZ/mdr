@@ -88,6 +88,7 @@ menu:
     NZ-medicines-terminology: NamingSystem-nzmt.html
   API: capabilityStatement.html
   Extensions: artifacts.html#structures-extension-definitions
+  NZePS-FHIR Mapping: nzepsToFhir.html
   All Artefacts: artifacts.html
   Support:
     FHIR Spec: new-tab https://hl7.org/fhir/index.html
