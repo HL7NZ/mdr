@@ -58,6 +58,9 @@
     <a href="artifacts.html#structures-extension-definitions">Extensions</a>
   </li>
   <li>
+    <a href="nzepsToFhir.html">NZePS-FHIR Mapping</a>
+  </li>
+  <li>
     <a href="artifacts.html">All Artefacts</a>
   </li>
   <li class="dropdown">
