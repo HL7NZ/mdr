@@ -21,7 +21,7 @@
   ],
   "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/bodyweight",
   "version": "0.1.0",
-  "name": "observation-bodyweight",
+  "name": "ObservationBodyweight",
   "title": "Observation Body Weight Profile",
   "status": "draft",
   "experimental": false,

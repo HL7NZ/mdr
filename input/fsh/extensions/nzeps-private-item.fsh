@@ -1,7 +1,8 @@
-Extension: NzEpsPrivateItem
+Extension: NzepsPrivateItem
 Id: nzeps-private-item
 Title: "NZePS Private Item Indicator"
 Description: "NZePS Private Item Indicator"
+* ^url = $nzeps-private-item 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

@@ -1,7 +1,8 @@
-Extension: NzEpsSupplyPeriodReason
+Extension: NzepsSupplyPeriodReason
 Id: nzeps-supply-period-reason
 Title: "NZePS Supply Period Reason"
 Description: "The reason for a non-standard Supply Period."
+* ^url = $nzeps-supply-period-reason
 * ^version = "1.0"
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

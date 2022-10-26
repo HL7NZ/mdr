@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-medication-modified",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-modified",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
   "version": "1.0",
-  "name": "NzEpsMedicationModified",
+  "name": "NzepsMedicationModified",
   "title": "NZePS Patient Medication Modification Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-modified"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified"
       },
       {
         "id": "Extension.value[x]",

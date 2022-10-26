@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-long-term-medication",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-long-term-medication",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
   "version": "1.0",
-  "name": "NzEpsLongTermMedication",
+  "name": "NzepsLongTermMedication",
   "title": "NZePS Long Term Medication Indicator",
   "status": "active",
   "date": "2020-08-20",
@@ -71,7 +71,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-long-term-medication"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication"
       },
       {
         "id": "Extension.value[x]",

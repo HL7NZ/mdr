@@ -1,7 +1,8 @@
-Extension: nzeps-trial-period-reason
+Extension: NzepsTrialPeriodReason
 Id: nzeps-trial-period-reason
 Title: "NZePS Trial Period Reason"
 Description: "The reason for any trial period."
+* ^url = $nzeps-trial-period-reason 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

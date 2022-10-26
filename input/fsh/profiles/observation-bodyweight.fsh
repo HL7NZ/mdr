@@ -1,4 +1,4 @@
-Profile: observation-bodyweight
+Profile: ObservationBodyweight
 Parent: $vitalsigns
 Id: bodyweight
 Title: "Observation Body Weight Profile"

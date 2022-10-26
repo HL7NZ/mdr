@@ -1,7 +1,8 @@
-Extension: NzEpsPharmacyApprovalOriginal
+Extension: NzepsPharmacyApprovalOriginal
 Id: nzeps-pharmacy-approval-original
 Title: "NZePS Original Pharmacy Approval Number"
 Description: "The Approval Number of the NZ Pharmacy where a Prescription Item was dispensed."
+* ^url = $nzeps-pharmacy-approval-original
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

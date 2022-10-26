@@ -1,7 +1,8 @@
-Extension: NzEpsForceNotification
+Extension: NzepsForceNotification
 Id: nzeps-force-notification
 Title: "NZePS Force Notification Indicator"
 Description: "NZePS Force Notification Indicator"
+* ^url = $nzeps-force-notification
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

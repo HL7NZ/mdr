@@ -1,7 +1,8 @@
-Extension: NzEpsUnsignedRejectionReason
+Extension: NzepsUnsignedRejectionReason
 Id: nzeps-unsigned-rejection-reason
 Title: "NZePS Unsigned Rejection Reason"
 Description: "Reason(s) why an unsigned prescription has been rejected."
+* ^url = $nzeps-unsigned-rejection-reason 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

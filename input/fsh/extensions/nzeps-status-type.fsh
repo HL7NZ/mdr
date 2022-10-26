@@ -1,7 +1,8 @@
-Extension: NzEpsStatusType
+Extension: NzepsStatusType
 Id: nzeps-status-type
 Title: "NZePS Status Type"
 Description: "Status Type of a NZ ePrescription (NZePS)"
+* ^url = $nzeps-status-type
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"
@@ -15,7 +16,7 @@ Description: "Status Type of a NZ ePrescription (NZePS)"
 * ^context.type = #element
 * ^context.expression = "MedicationRequest"
 * value[x] only code
-* value[x] from $nzeps-status-type (required)
+* value[x] from $nzeps-status-type-vs (required)
 * value[x] ^label = "NZePS Status Type"
 * value[x] ^short = "NZePS Status Types"
 * value[x] ^definition = "The status of the current version of a NZePS ePrescription (Valid, Unsigned, ToBeReconciled, Returned, Phone, Referred or BlisterPack)."

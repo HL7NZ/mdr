@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-notify",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-notify",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
   "version": "1.0",
-  "name": "NzEpsNotify",
+  "name": "NzepsNotify",
   "title": "NZePS Active Notification Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-notify"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify"
       },
       {
         "id": "Extension.value[x]",

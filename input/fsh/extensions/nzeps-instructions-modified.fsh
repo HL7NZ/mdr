@@ -1,7 +1,8 @@
-Extension: NzEpsInstructionsModified
+Extension: NzepsInstructionsModified
 Id: nzeps-instructions-modified
 Title: "NZePS Patient Instructions Modification Indicator"
 Description: "NZePS Patients Instructions modification indicator"
+* ^url = $nzeps-instructions-modified
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-instructions-modified",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-instructions-modified",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
   "version": "1.0",
-  "name": "NzEpsInstructionsModified",
+  "name": "NzepsInstructionsModified",
   "title": "NZePS Patient Instructions Modification Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-instructions-modified"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified"
       },
       {
         "id": "Extension.value[x]",

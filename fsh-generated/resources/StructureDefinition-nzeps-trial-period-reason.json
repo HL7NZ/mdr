@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-trial-period-reason",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-trial-period-reason",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-trial-period-reason",
   "version": "1.0",
-  "name": "nzeps-trial-period-reason",
+  "name": "NzepsTrialPeriodReason",
   "title": "NZePS Trial Period Reason",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-trial-period-reason"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-trial-period-reason"
       },
       {
         "id": "Extension.value[x]",

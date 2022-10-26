@@ -1,7 +1,8 @@
-Extension: NzEpsUnusualDoseQuantity
+Extension: NzepsUnusualDoseQuantity
 Id: nzeps-unusual-dose-quantity
 Title: "NZePS Unusual Dose Quantity Indicator"
 Description: "NZePS Unusual Dose Quantity Indicator"
+* ^url = $nzeps-unusual-dose-quantity 
 * ^version = "1.0"
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

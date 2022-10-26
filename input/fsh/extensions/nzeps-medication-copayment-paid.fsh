@@ -1,7 +1,8 @@
-Extension: NzEpsMedicationCopaymentPaid
+Extension: NzepsMedicationCopaymentPaid
 Id: nzeps-medication-copayment-paid
 Title: "NZePS Medication Co-Payment Payment Indicator"
 Description: "NZePS Medication Co-Payment payment indicator"
+* ^url = $nzeps-medication-copayment-paid 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

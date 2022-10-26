@@ -1,7 +1,8 @@
-Extension: NzEpsLongTermMedication
+Extension: NzepsLongTermMedication
 Id: nzeps-long-term-medication
 Title: "NZePS Long Term Medication Indicator"
 Description: "NZePS Long Term Medication Indicator"
+* ^url = $nzeps-long-term-medication
 * ^version = "1.0"
 * ^date = "2020-08-20"
 * ^publisher = "HL7 New Zealand"

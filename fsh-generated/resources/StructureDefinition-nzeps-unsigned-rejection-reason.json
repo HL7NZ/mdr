@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-unsigned-rejection-reason",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-unsigned-rejection-reason",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unsigned-rejection-reason",
   "version": "1.0",
-  "name": "NzEpsUnsignedRejectionReason",
+  "name": "NzepsUnsignedRejectionReason",
   "title": "NZePS Unsigned Rejection Reason",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-unsigned-rejection-reason"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unsigned-rejection-reason"
       },
       {
         "id": "Extension.value[x]",

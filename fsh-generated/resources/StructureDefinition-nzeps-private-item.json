@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-private-item",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-private-item",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
   "version": "1.0",
-  "name": "NzEpsPrivateItem",
+  "name": "NzepsPrivateItem",
   "title": "NZePS Private Item Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-private-item"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item"
       },
       {
         "id": "Extension.value[x]",

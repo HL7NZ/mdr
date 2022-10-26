@@ -1,7 +1,8 @@
-Extension: NzEpsNotify
+Extension: NzepsNotify
 Id: nzeps-notify
 Title: "NZePS Active Notification Indicator"
 Description: "NZePS Active Notification Indicator"
+* ^url = $nzeps-notify 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

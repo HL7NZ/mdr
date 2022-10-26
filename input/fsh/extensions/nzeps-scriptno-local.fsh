@@ -1,7 +1,8 @@
-Extension: NzEpsScriptnoLocal
+Extension: NzepsScriptnoLocal
 Id: nzeps-scriptno-local
 Title: "NZePS Local Script Number"
 Description: "NZ Pharmacy Claim Number."
+* ^url =  $nzeps-scriptno-local 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

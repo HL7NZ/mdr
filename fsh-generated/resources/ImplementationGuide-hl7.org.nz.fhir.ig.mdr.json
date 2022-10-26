@@ -175,6 +175,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/nzeps-trial-period-reason"
+        },
+        "name": "NZePS Trial Period Reason",
+        "description": "The reason for any trial period.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/nzeps-unsigned-rejection-reason"
         },
         "name": "NZePS Unsigned Rejection Reason",
@@ -195,14 +203,6 @@
         },
         "name": "NZePS Use Generic Drug Name Indicator",
         "description": "NZePS Use Generic Name Indicator",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/nzeps-trial-period-reason"
-        },
-        "name": "NZePS Trial Period Reason",
-        "description": "The reason for any trial period.",
         "exampleBoolean": false
       },
       {

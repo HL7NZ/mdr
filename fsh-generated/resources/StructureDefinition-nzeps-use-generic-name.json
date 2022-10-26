@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-use-generic-name",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-use-generic-name",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-use-generic-name",
   "version": "1.0",
-  "name": "NzEpsUseGenericName",
+  "name": "NzepsUseGenericName",
   "title": "NZePS Use Generic Drug Name Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-use-generic-name"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-use-generic-name"
       },
       {
         "id": "Extension.value[x]",

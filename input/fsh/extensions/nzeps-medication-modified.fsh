@@ -1,7 +1,8 @@
-Extension: NzEpsMedicationModified
+Extension: NzepsMedicationModified
 Id: nzeps-medication-modified
 Title: "NZePS Patient Medication Modification Indicator"
 Description: "NZePS medication modification indicator"
+* ^url = $nzeps-medication-modified
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

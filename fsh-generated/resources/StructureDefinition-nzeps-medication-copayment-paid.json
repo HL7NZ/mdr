@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-medication-copayment-paid",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-copayment-paid",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-copayment-paid",
   "version": "1.0",
-  "name": "NzEpsMedicationCopaymentPaid",
+  "name": "NzepsMedicationCopaymentPaid",
   "title": "NZePS Medication Co-Payment Payment Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-copayment-paid"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-copayment-paid"
       },
       {
         "id": "Extension.value[x]",

@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-funding-category",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-funding-category",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
   "version": "1.0",
-  "name": "NzEpsFundingCategory",
+  "name": "NzepsFundingCategory",
   "title": "NZePS Funding Category",
   "status": "draft",
   "date": "2020-07-20",
@@ -71,7 +71,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-funding-category"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category"
       },
       {
         "id": "Extension.value[x]",

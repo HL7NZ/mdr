@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-scriptno-local",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-scriptno-local",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-scriptno-local",
   "version": "1.0",
-  "name": "NzEpsScriptnoLocal",
+  "name": "NzepsScriptnoLocal",
   "title": "NZePS Local Script Number",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-scriptno-local"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-scriptno-local"
       },
       {
         "id": "Extension.value[x]",

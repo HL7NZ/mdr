@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-medication-claimable",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-claimable",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
   "version": "1.0",
-  "name": "NzEpsMedicationClaimable",
+  "name": "NzepsMedicationClaimable",
   "title": "NZePS Medication Claimable Indicator",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-claimable"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable"
       },
       {
         "id": "Extension.value[x]",

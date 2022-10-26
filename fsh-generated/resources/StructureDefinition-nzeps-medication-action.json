@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-medication-action",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-action",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
   "version": "1.0",
-  "name": "NzEpsMedicationAction",
+  "name": "NzepsMedicationAction",
   "title": "NZePS Medication Action Type",
   "status": "draft",
   "date": "2020-08-28",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-medication-action"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action"
       },
       {
         "id": "Extension.value[x]",

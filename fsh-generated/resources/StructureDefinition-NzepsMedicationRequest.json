@@ -63,8 +63,244 @@
   "differential": {
     "element": [
       {
-        "id": "MedicationRequest",
-        "path": "MedicationRequest"
+        "id": "MedicationRequest.extension",
+        "path": "MedicationRequest.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 10
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-long-term-medication",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-long-term-medication",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-supply-period-reason",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-supply-period-reason",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-unusual-dose-quantity",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-unusual-dose-quantity",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-endorsement",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-endorsement",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-endorsement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-status-type",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-status-type",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-medication-action",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-medication-action",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-instructions-modified",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-instructions-modified",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-medication-modified",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-medication-modified",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-unsigned-rejection-reason",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-unsigned-rejection-reason",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unsigned-rejection-reason"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-trial-period-reason",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-trial-period-reason",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-trial-period-reason"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-funding-category",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-funding-category",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-medication-claimable",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-medication-claimable",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-private-item",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-private-item",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-force-notification",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-force-notification",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-notify",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-notify",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify"
+            ]
+          }
+        ]
       }
     ]
   }

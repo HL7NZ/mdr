@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-status-type",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-status-type",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
   "version": "1.0",
-  "name": "NzEpsStatusType",
+  "name": "NzepsStatusType",
   "title": "NZePS Status Type",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-status-type"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type"
       },
       {
         "id": "Extension.value[x]",

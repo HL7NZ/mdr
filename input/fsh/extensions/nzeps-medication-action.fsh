@@ -1,7 +1,8 @@
-Extension: NzEpsMedicationAction
+Extension: NzepsMedicationAction
 Id: nzeps-medication-action
 Title: "NZePS Medication Action Type"
 Description: "Medcation action denoting the relationship of a NZ ePrescription (NZePS) Item within a patient's overall medication regime."
+* ^url = $nzeps-medication-action
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-08-28"
@@ -15,7 +16,7 @@ Description: "Medcation action denoting the relationship of a NZ ePrescription (
 * ^context.type = #element
 * ^context.expression = "MedicationRequest"
 * value[x] only code
-* value[x] from $nzeps-medication-action (required)
+* value[x] from $nzeps-medication-action-vs (required)
 * value[x] ^label = "NZePS Status Type"
 * value[x] ^short = "NZePS Status Types"
 * value[x] ^definition = "Relationship of a prescribed medication within a patient's overall medication regime (New_Medication, Changed_Medication, Continuted_Medication, Stopped_Medication, None)."

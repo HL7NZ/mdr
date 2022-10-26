@@ -63,8 +63,94 @@
   "differential": {
     "element": [
       {
-        "id": "MedicationDispense",
-        "path": "MedicationDispense"
+        "id": "MedicationDispense.extension",
+        "path": "MedicationDispense.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "MedicationDispense.extension:nzeps-endorsement",
+        "path": "MedicationDispense.extension",
+        "sliceName": "nzeps-endorsement",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-endorsement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationDispense.extension:nzeps-pharmacy-approval-original",
+        "path": "MedicationDispense.extension",
+        "sliceName": "nzeps-pharmacy-approval-original",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-pharmacy-approval-original"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationDispense.extension:nzeps-funding-category",
+        "path": "MedicationDispense.extension",
+        "sliceName": "nzeps-funding-category",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationDispense.extension:nzeps-scriptno-local",
+        "path": "MedicationDispense.extension",
+        "sliceName": "nzeps-scriptno-local",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-scriptno-local"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationDispense.extension:nzeps-medication-copayment-paid",
+        "path": "MedicationDispense.extension",
+        "sliceName": "nzeps-medication-copayment-paid",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-copayment-paid"
+            ]
+          }
+        ]
       }
     ]
   }

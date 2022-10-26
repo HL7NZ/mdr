@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-pharmacy-approval-original",
-  "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-pharmacy-approval-original",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-pharmacy-approval-original",
   "version": "1.0",
-  "name": "NzEpsPharmacyApprovalOriginal",
+  "name": "NzepsPharmacyApprovalOriginal",
   "title": "NZePS Original Pharmacy Approval Number",
   "status": "draft",
   "date": "2020-07-20",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/nzeps-pharmacy-approval-original"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-pharmacy-approval-original"
       },
       {
         "id": "Extension.value[x]",

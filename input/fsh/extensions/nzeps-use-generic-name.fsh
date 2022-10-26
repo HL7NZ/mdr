@@ -1,7 +1,8 @@
-Extension: NzEpsUseGenericName
+Extension: NzepsUseGenericName
 Id: nzeps-use-generic-name
 Title: "NZePS Use Generic Drug Name Indicator"
 Description: "NZePS Use Generic Name Indicator"
+* ^url = $nzeps-use-generic-name
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

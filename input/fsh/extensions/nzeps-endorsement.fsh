@@ -1,7 +1,8 @@
-Extension: NzEpsEndorsement
+Extension: NzepsEndorsement
 Id: nzeps-endorsement
 Title: "NZePS Endorsement"
 Description: "NZ ePrescription (NZePS) Endorsements"
+* ^url = $nzeps-endorsement 
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-07-20"
@@ -22,7 +23,7 @@ Description: "NZ ePrescription (NZePS) Endorsements"
     expiryDate 0..1
 * extension[endorsementType] ^definition = "The type of endorsement"
 * extension[endorsementType].value[x] only CodeableConcept
-* extension[endorsementType].valueCodeableConcept from $nzeps-endorsement-type (required)
+* extension[endorsementType].valueCodeableConcept from $nzeps-endorsement-type-vs (required)
 * extension[value] ^definition = "The endorsement value"
 * extension[value].value[x] only string
 * extension[expiryDate] ^definition = "The date the endorsement expires"
