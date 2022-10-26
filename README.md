@@ -1,4 +1,4 @@
-# mdr
-Medicines Data Repository Implementation Guide
+# Medicines Data Repository
+Source for the Medicines Data Repository Implementation Guide
 
-Draft build at https://build.fhir.org/ig/HL7NZ/mdr/ 
+The CI build can be viewed at https://build.fhir.org/ig/HL7NZ/mdr/ 
