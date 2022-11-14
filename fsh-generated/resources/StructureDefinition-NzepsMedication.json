@@ -130,6 +130,14 @@
             ]
           }
         ]
+      },
+      {
+        "id": "Medication.code",
+        "path": "Medication.code",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://nzmt.org.nz/vs"
+        }
       }
     ]
   }

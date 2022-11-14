@@ -25,10 +25,13 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="StructureDefinition-NzepsMedicationDispense.html">NzEpsMedicationDispense</a>
+        <a href="StructureDefinition-NzepsMedicationDispense.html">NZePS MedicationDispense</a>
       </li>
       <li>
-        <a href="StructureDefinition-NzepsMedicationRequest.html">NzEpsMedicationRequest</a>
+        <a href="StructureDefinition-NzepsMedicationRequest.html">NZePS MedicationRequest</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-NzepsMedication.html">NZePS Medication</a>
       </li>
       <li>
         <a href="StructureDefinition-bodyweight.html">ObservationBodyweight</a>
