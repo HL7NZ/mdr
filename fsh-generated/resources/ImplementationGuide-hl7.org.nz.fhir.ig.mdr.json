@@ -31,6 +31,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/NzepsMedication"
+        },
+        "name": "Medication resource for use in NZ e-Prescription Service MDR",
+        "description": "Medication resource for use in NZ e-Prescription Service Medicines Data Repository",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzepsMedicationDispense"
         },
         "name": "Medication Dispense resource for use in NZ e-Prescription Service MDR",
@@ -203,6 +211,38 @@
         },
         "name": "NZePS Use Generic Drug Name Indicator",
         "description": "NZePS Use Generic Name Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-atc"
+        },
+        "name": "nzf-atc",
+        "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-nzmt-type"
+        },
+        "name": "nzf-nzmt-type",
+        "description": "Type of NZMT record (e.g. MP, MPUU)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-prescribe-by-brand"
+        },
+        "name": "nzf-prescribe-by-brand",
+        "description": "True if can be prescribed by brand",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-related-medication"
+        },
+        "name": "nzf-related-medication",
+        "description": "A related medication within the NZMT hierarchy",
         "exampleBoolean": false
       },
       {
