@@ -1,7 +1,7 @@
-Extension: nzf-atc
-Id: nzf-atc
+Extension: Atc
+Id: atc
 Description: "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/atc"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2022-08-25T23:28:05+00:00"

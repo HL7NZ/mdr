@@ -63,6 +63,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/atc"
+        },
+        "name": "Atc",
+        "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/nzeps-endorsement"
         },
         "name": "NZePS Endorsement",
@@ -215,33 +223,25 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzf-atc"
+          "reference": "StructureDefinition/NzmtType"
         },
-        "name": "nzf-atc",
-        "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/nzf-nzmt-type"
-        },
-        "name": "nzf-nzmt-type",
+        "name": "NzmtType",
         "description": "Type of NZMT record (e.g. MP, MPUU)",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzf-prescribe-by-brand"
+          "reference": "StructureDefinition/PrescribedByBrand"
         },
-        "name": "nzf-prescribe-by-brand",
+        "name": "PrescribedByBrand",
         "description": "True if can be prescribed by brand",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzf-related-medication"
+          "reference": "StructureDefinition/RelatedMedication"
         },
-        "name": "nzf-related-medication",
+        "name": "RelatedMedication",
         "description": "A related medication within the NZMT hierarchy",
         "exampleBoolean": false
       },

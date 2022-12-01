@@ -4,7 +4,7 @@ Alias: $nzeps-endorsement-type-vs = http://hl7.org.nz/fhir/ValueSet/nzeps-endors
 Alias: $nzeps-medication-action-vs = http://hl7.org.nz/fhir/ValueSet/nzeps-medication-action
 Alias: $nzeps-status-type-vs = http://hl7.org.nz/fhir/ValueSet/nzeps-status-type
 Alias: $atc-code = https://nzhts.digital.health.nz/fhir/ValueSet/atc-code
-Alias: $nzmt-type = https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type
+Alias: $nzmt-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type
 
 // extension URLs
 
@@ -31,7 +31,7 @@ Alias: $nzeps-unusual-dose-quantity = http://hl7.org.nz/fhir/StructureDefinition
 Alias: $nzeps-use-generic-name = http://hl7.org.nz/fhir/StructureDefinition/nzeps-use-generic-name
 
 // nzf 
-Alias: $nzf-atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
-Alias: $nzf-nzmt-type = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
-Alias: $nzf-prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
-Alias: $nzf-related-medication = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication
+Alias: $atc = http://hl7.org.nz/fhir/StructureDefinition/atc
+Alias: $nzmt-type = http://hl7.org.nz/fhir/StructureDefinition/nzmt-type
+Alias: $prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand
+Alias: $related-medication = http://hl7.org.nz/fhir/StructureDefinition/related-medication

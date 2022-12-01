@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "nzf-atc",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+  "id": "atc",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/atc",
   "version": "0.1.0",
-  "name": "nzf-atc",
+  "name": "Atc",
   "status": "draft",
   "date": "2022-08-25T23:28:05+00:00",
   "publisher": "New Zealand Medicines Formulary LP",
@@ -63,7 +63,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/atc"
       },
       {
         "id": "Extension.value[x]",

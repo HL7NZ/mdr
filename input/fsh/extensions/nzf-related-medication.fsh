@@ -1,7 +1,7 @@
-Extension: nzf-related-medication
-Id: nzf-related-medication
+Extension: RelatedMedication
+Id: RelatedMedication
 Description: "A related medication within the NZMT hierarchy"
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/related-medication"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2022-08-25T23:28:05+00:00"

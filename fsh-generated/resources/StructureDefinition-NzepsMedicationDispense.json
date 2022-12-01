@@ -151,6 +151,21 @@
             ]
           }
         ]
+      },
+      {
+        "id": "MedicationDispense.medicationCodeableConcept",
+        "path": "MedicationDispense.medicationCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://nzmt.org.nz/vs"
+        }
       }
     ]
   }

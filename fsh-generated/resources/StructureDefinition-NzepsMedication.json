@@ -72,61 +72,61 @@
         }
       },
       {
-        "id": "Medication.extension:nzf-atc",
+        "id": "Medication.extension:Atc",
         "path": "Medication.extension",
-        "sliceName": "nzf-atc",
+        "sliceName": "Atc",
         "min": 0,
         "max": "*",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
+              "http://hl7.org.nz/fhir/StructureDefinition/atc"
             ]
           }
         ]
       },
       {
-        "id": "Medication.extension:nzf-nzmt-type",
+        "id": "Medication.extension:NzmtType",
         "path": "Medication.extension",
-        "sliceName": "nzf-nzmt-type",
+        "sliceName": "NzmtType",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type"
+              "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type"
             ]
           }
         ]
       },
       {
-        "id": "Medication.extension:nzf-prescribe-by-brand",
+        "id": "Medication.extension:PrescribedByBrand",
         "path": "Medication.extension",
-        "sliceName": "nzf-prescribe-by-brand",
+        "sliceName": "PrescribedByBrand",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand"
+              "http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand"
             ]
           }
         ]
       },
       {
-        "id": "Medication.extension:nzf-related-medication",
+        "id": "Medication.extension:RelatedMedication",
         "path": "Medication.extension",
-        "sliceName": "nzf-related-medication",
+        "sliceName": "RelatedMedication",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+              "http://hl7.org.nz/fhir/StructureDefinition/related-medication"
             ]
           }
         ]

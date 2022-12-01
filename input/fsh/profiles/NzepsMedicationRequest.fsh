@@ -8,6 +8,9 @@ Description:    "Medication Request resource for use in NZ e-Prescription Servic
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 
+* medicationCodeableConcept only CodeableConcept
+* medicationCodeableConcept from http://nzmt.org.nz/vs (preferred)
+
 * extension contains
     $nzeps-long-term-medication named nzeps-long-term-medication 1..1 and
     $nzeps-supply-period-reason named nzeps-supply-period-reason 0..1 and
@@ -17,7 +20,6 @@ Description:    "Medication Request resource for use in NZ e-Prescription Servic
     $nzeps-medication-action named nzeps-medication-action 1..1 and
     $nzeps-instructions-modified named nzeps-instructions-modified 1..1 and
     $nzeps-medication-modified named nzeps-medication-modified 1..1 and
-    $nzeps-supply-period-reason named nzeps-supply-period-reason 0..1 and
     $nzeps-unsigned-rejection-reason named nzeps-unsigned-rejection-reason 0..1 and
     $nzeps-trial-period-reason named nzeps-trial-period-reason 0..1 and
     $nzeps-funding-category named nzeps-funding-category 0..1 and

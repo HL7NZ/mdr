@@ -1,7 +1,7 @@
-Extension: nzf-prescribe-by-brand
-Id: nzf-prescribe-by-brand
+Extension: PrescribedByBrand
+Id: PrescribedByBrand
 Description: "True if can be prescribed by brand"
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2021-06-23T02:31:56+00:00"
