@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "RelatedMedication",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/related-medication",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication",
   "version": "0.1.0",
   "name": "RelatedMedication",
   "status": "draft",
@@ -119,7 +119,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/related-medication"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
       },
       {
         "id": "Extension.value[x]",

@@ -9,10 +9,10 @@ Description:    "Medication resource for use in NZ e-Prescription Service Medici
 * ^status = #draft
 
 * extension contains
-    $atc named Atc 0..* and
-    $nzmt-type named NzmtType 0..1 and
-    $prescribe-by-brand named PrescribedByBrand 0..1 and
-    $related-medication named RelatedMedication 0..*
+    $nzf-atc named Atc 0..* and
+    $nzf-nzmt-type named NzmtType 0..1 and
+    $nzf-prescribe-by-brand named PrescribedByBrand 0..1 and
+    $nzf-related-medication named RelatedMedication 0..*
 
 * code only CodeableConcept
 * code from http://nzmt.org.nz/vs (preferred)

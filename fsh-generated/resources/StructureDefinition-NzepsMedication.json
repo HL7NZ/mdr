@@ -81,7 +81,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/atc"
+              "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
             ]
           }
         ]
@@ -96,7 +96,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type"
+              "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type"
             ]
           }
         ]
@@ -111,7 +111,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/prescribe-by-brand"
+              "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand"
             ]
           }
         ]
@@ -126,7 +126,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/related-medication"
+              "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
             ]
           }
         ]

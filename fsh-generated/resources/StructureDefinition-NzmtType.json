@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzmtType",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
   "version": "0.1.0",
   "name": "NzmtType",
   "status": "draft",
@@ -63,7 +63,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzmt-type"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type"
       },
       {
         "id": "Extension.value[x]",
