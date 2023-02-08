@@ -27,6 +27,14 @@
   "fhirVersion": [
     "4.0.1"
   ],
+  "dependsOn": [
+    {
+      "packageId": "fhir.org.nz.ig.base",
+      "version": "dev",
+      "uri": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
+      "id": "fhir_org_nz_ig_base"
+    }
+  ],
   "definition": {
     "resource": [
       {
@@ -59,14 +67,6 @@
         },
         "name": "Observation Body Weight Profile",
         "description": "FHIR Body Weight Profile",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/atc"
-        },
-        "name": "Atc",
-        "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
         "exampleBoolean": false
       },
       {
@@ -219,30 +219,6 @@
         },
         "name": "NZePS Use Generic Drug Name Indicator",
         "description": "NZePS Use Generic Name Indicator",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzmtType"
-        },
-        "name": "NzmtType",
-        "description": "Type of NZMT record (e.g. MP, MPUU)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/PrescribedByBrand"
-        },
-        "name": "PrescribedByBrand",
-        "description": "True if can be prescribed by brand",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RelatedMedication"
-        },
-        "name": "RelatedMedication",
-        "description": "A related medication within the NZMT hierarchy",
         "exampleBoolean": false
       },
       {

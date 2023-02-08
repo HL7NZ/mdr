@@ -25,7 +25,14 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
+
+dependencies:
+  fhir.org.nz.ig.base: dev
+#    uri: http://hl7.org.nz/fhir
+#    id: fhir.org.nz.ig.base
+#    version: dev
+
+#  http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
