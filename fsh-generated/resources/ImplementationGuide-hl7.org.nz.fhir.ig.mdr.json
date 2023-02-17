@@ -244,6 +244,13 @@
       },
       {
         "reference": {
+          "reference": "SearchParameter/nzf-nzmt-type-search-parameter"
+        },
+        "name": "nzf-nzmt-type-search-parameter",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/nzmt"
         },
         "name": "nzmt",

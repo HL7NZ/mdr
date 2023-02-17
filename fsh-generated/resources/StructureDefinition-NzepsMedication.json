@@ -72,9 +72,9 @@
         }
       },
       {
-        "id": "Medication.extension:nzf-atc",
+        "id": "Medication.extension:atc",
         "path": "Medication.extension",
-        "sliceName": "nzf-atc",
+        "sliceName": "atc",
         "min": 0,
         "max": "*",
         "type": [
@@ -87,9 +87,9 @@
         ]
       },
       {
-        "id": "Medication.extension:nzf-nzmt-type",
+        "id": "Medication.extension:nzmtType",
         "path": "Medication.extension",
-        "sliceName": "nzf-nzmt-type",
+        "sliceName": "nzmtType",
         "min": 0,
         "max": "1",
         "type": [
@@ -102,9 +102,9 @@
         ]
       },
       {
-        "id": "Medication.extension:nzf-prescribe-by-brand",
+        "id": "Medication.extension:prescribebybrand",
         "path": "Medication.extension",
-        "sliceName": "nzf-prescribe-by-brand",
+        "sliceName": "prescribebybrand",
         "min": 0,
         "max": "1",
         "type": [
@@ -117,9 +117,9 @@
         ]
       },
       {
-        "id": "Medication.extension:nzf-related-medication",
+        "id": "Medication.extension:relatedmedication",
         "path": "Medication.extension",
-        "sliceName": "nzf-related-medication",
+        "sliceName": "relatedmedication",
         "min": 0,
         "max": "*",
         "type": [
