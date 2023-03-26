@@ -33,5 +33,5 @@ Alias: $nzeps-use-generic-name = http://hl7.org.nz/fhir/StructureDefinition/nzep
 // nzf 
 Alias: $nzf-atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
 Alias: $nzf-nzmt-type = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
-Alias: $nzf-prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
+Alias: $nzf-prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand 
 Alias: $nzf-related-medication = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication

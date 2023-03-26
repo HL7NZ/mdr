@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzepsMedication",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Medications"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzepsMedication",
   "version": "0.1.0",
   "name": "NzepsMedication",

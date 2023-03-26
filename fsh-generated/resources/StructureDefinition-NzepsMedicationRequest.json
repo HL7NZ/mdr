@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzepsMedicationRequest",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Medications"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzepsMedicationRequest",
   "version": "0.1.0",
   "name": "NzepsMedicationRequest",
