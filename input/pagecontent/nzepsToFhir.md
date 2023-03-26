@@ -1,3 +1,3 @@
 ### NZePS to FHIR Data model mapping
 
-Link to [NZePS_Data_Model_v3_7.xls](https://github.com/HL7NZ/mdr/raw/master/NZePS_Data_Model_v3_7.xls) data model and mappings.  
+Link to [NZePS_Data_Model_v3_8.xls](https://github.com/HL7NZ/mdr/raw/master/NZePS_Data_Model_v3_8.xls) data model and mappings.  
