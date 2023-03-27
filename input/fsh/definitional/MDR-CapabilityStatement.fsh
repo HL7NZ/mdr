@@ -5,6 +5,7 @@ Usage: #definition
 * version = "4.0.1"
 * name = "NZ_MDR"
 * title = "Medicines Data Repository FHIR Server"
+* description = "MDR Capability Statement"
 * status = #draft
 * experimental = true
 * date = "2022-09-01T20:26:40.8906669Z"

@@ -29,16 +29,16 @@
   ],
   "dependsOn": [
     {
-      "packageId": "fhir.org.nz.ig.base",
-      "version": "current",
-      "uri": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
-      "id": "fhir_org_nz_ig_base"
-    },
-    {
       "packageId": "hl7.org.nz.fhir.ig.formulary",
       "version": "current",
       "uri": "http://hl7.org.nz/fhir/ig/formulary/ImplementationGuide/hl7.org.nz.fhir.ig.formulary",
       "id": "hl7_org_nz_fhir_ig_formulary"
+    },
+    {
+      "packageId": "fhir.org.nz.ig.base",
+      "version": "current",
+      "uri": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
+      "id": "fhir_org_nz_ig_base"
     }
   ],
   "definition": {
@@ -225,6 +225,13 @@
         },
         "name": "NZePS Use Generic Drug Name Indicator",
         "description": "NZePS Use Generic Name Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/NZ-MCV"
+        },
+        "name": "NZ-MCV",
         "exampleBoolean": false
       },
       {

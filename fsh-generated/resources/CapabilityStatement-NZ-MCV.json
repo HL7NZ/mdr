@@ -1,0 +1,224 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "NZ-MCV",
+  "url": "https://preprod-apibroker.whanautahi.com/mcv/fhir/metadata",
+  "version": "4.0.1",
+  "name": "NZ_MDR",
+  "title": "Medicines Data Repository FHIR Server",
+  "description": "MDR Consumer View Capability Statement",
+  "status": "draft",
+  "experimental": true,
+  "date": "2023-02-24T01:15:23.3688326Z",
+  "publisher": "Whanau Tahi Limited",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.whanautahi.com"
+        }
+      ]
+    }
+  ],
+  "kind": "capability",
+  "software": {
+    "name": "Medicines Consumer View FHIR API",
+    "version": "1.0.0.0"
+  },
+  "fhirVersion": "4.0.1",
+  "format": [
+    "application/fhir+json"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "security": {
+        "service": [
+          {
+            "coding": [
+              {
+                "code": "OAuth",
+                "system": "http://terminology.hl7.org/CodeSystem/restful-security-service"
+              }
+            ]
+          }
+        ],
+        "description": "Supports OAuth 2.0 - Client Credential flow. [OAuth token endpoint] (https://login.microsoftonline.com/7a71250a-e506-4080-8e6a-ae1e8a771e22/oauth2/v2.0/token)"
+      },
+      "resource": [
+        {
+          "type": "MedicationRequest",
+          "profile": "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "versioning": "no-version",
+          "readHistory": false,
+          "updateCreate": false,
+          "conditionalCreate": false,
+          "conditionalRead": "not-supported",
+          "conditionalUpdate": false,
+          "conditionalDelete": "not-supported",
+          "referencePolicy": [
+            "literal",
+            "local"
+          ],
+          "searchInclude": [
+            "MedicationRequest:medication"
+          ],
+          "searchRevInclude": [
+            "MedicationDispense:prescription"
+          ],
+          "searchParam": [
+            {
+              "name": "_lastUpdated",
+              "definition": "http://hl7.org/fhir/SearchParameter/Resource-lastUpdated",
+              "type": "date",
+              "documentation": "When the resource version last changed (use format yyyy-mm-ddThh:mm:ssZ)"
+            },
+            {
+              "name": "_security",
+              "definition": "http://hl7.org/fhir/SearchParameter/Resource-security",
+              "type": "token",
+              "documentation": "Security Labels applied to this resource"
+            },
+            {
+              "name": "status",
+              "definition": "http://hl7.org/fhir/SearchParameter/medications-status",
+              "type": "token",
+              "documentation": "Status of the prescription"
+            },
+            {
+              "name": "authoredon",
+              "definition": "http://hl7.org/fhir/SearchParameter/MedicationRequest-authoredon",
+              "type": "date",
+              "documentation": "Return prescriptions written on this date (use format yyyy-mm-ddThh:mm:ssZ)"
+            },
+            {
+              "name": "patient",
+              "definition": "http://hl7.org/fhir/SearchParameter/clinical-patient",
+              "type": "reference",
+              "documentation": "Returns prescriptions for a specific patient (NHI)"
+            }
+          ]
+        },
+        {
+          "type": "MedicationDispense",
+          "profile": "http://hl7.org/fhir/StructureDefinition/MedicationDispense",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "versioning": "no-version",
+          "readHistory": false,
+          "updateCreate": false,
+          "conditionalCreate": false,
+          "conditionalRead": "not-supported",
+          "conditionalUpdate": false,
+          "conditionalDelete": "not-supported",
+          "referencePolicy": [
+            "literal",
+            "local"
+          ],
+          "searchInclude": [
+            "MedicationDispense:prescription",
+            "MedicationDispense:medication"
+          ],
+          "searchParam": [
+            {
+              "name": "_lastUpdated",
+              "definition": "http://hl7.org/fhir/SearchParameter/Resource-lastUpdated",
+              "type": "date",
+              "documentation": "When the resource version last changed (use format yyyy-mm-ddThh:mm:ssZ)"
+            },
+            {
+              "name": "_security",
+              "definition": "http://hl7.org/fhir/SearchParameter/Resource-security",
+              "type": "token",
+              "documentation": "Security Labels applied to this resource"
+            },
+            {
+              "name": "patient",
+              "definition": "http://hl7.org/fhir/SearchParameter/clinical-patient",
+              "type": "reference",
+              "documentation": "The identity of a patient to list dispenses  for (NHI)"
+            },
+            {
+              "name": "whenprepared",
+              "definition": "http://hl7.org/fhir/SearchParameter/MedicationDispense-whenprepared",
+              "type": "date",
+              "documentation": "Returns dispenses prepared on this date (use format yyyy-mm-ddThh:mm:ssZ)"
+            },
+            {
+              "name": "whenhandedover",
+              "definition": "http://hl7.org/fhir/SearchParameter/MedicationDispense-whenhandedover",
+              "type": "date",
+              "documentation": "Returns dispenses handed over on this date (use format yyyy-mm-ddThh:mm:ssZ)"
+            },
+            {
+              "name": "status",
+              "definition": "http://hl7.org/fhir/SearchParameter/medications-status",
+              "type": "token",
+              "documentation": "Returns dispenses with a specified dispense status"
+            }
+          ]
+        },
+        {
+          "type": "Medication",
+          "profile": "http://hl7.org/fhir/StructureDefinition/Medication",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "versioning": "no-version",
+          "readHistory": false,
+          "updateCreate": false,
+          "conditionalCreate": false,
+          "conditionalRead": "not-supported",
+          "conditionalUpdate": false,
+          "conditionalDelete": "not-supported",
+          "searchParam": [
+            {
+              "name": "code",
+              "definition": "http://hl7.org/fhir/SearchParameter/clinical-code",
+              "type": "token",
+              "documentation": "Returns medications for this code (NZULM)"
+            },
+            {
+              "name": "_id",
+              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
+              "type": "token",
+              "documentation": "Logical id of this artifact (NZULM)"
+            }
+          ]
+        }
+      ],
+      "searchParam": [
+        {
+          "name": "_count",
+          "type": "number",
+          "documentation": "How many resources to return"
+        },
+        {
+          "name": "_sort",
+          "type": "token",
+          "documentation": "How to sort the resources when returning"
+        },
+        {
+          "name": "_total",
+          "type": "number",
+          "documentation": "Include number of resources that match the search parameters; Only Partial support available (_total=none and _total=accurate)"
+        },
+        {
+          "name": "_elements",
+          "type": "string",
+          "documentation": "What kind of information to return"
+        }
+      ]
+    }
+  ]
+}
