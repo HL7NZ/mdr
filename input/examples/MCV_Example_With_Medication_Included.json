@@ -1,0 +1,3121 @@
+{
+  "resourceType": "Bundle",
+  "id": "b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a",
+  "meta": {
+    "lastUpdated": "2023-06-20T02:18:11.1957464+00:00"
+  },
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "next",
+      "url": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest?patient=ZZZ0008&_revinclude=MedicationDispense%3Aprescription&_include=MedicationRequest%3Amedication&authoredon=ge2021-06-20&authoredon=le2023-06-20&ct=NJTbUiM3EIbfxVx6U8vBEOKqvfhaIw2yMKAxMzBO5YKAaQ8nIXbZ8bLZvFgu8kh5hdRQtX3VVVKp%2F1Prv3%2F%2B%2Fbr71%2B%2FfR1%2FS%2FeppNB2NK19M%2F16fPnTMvvyyXDXVCT%2Fr06et6ny6s3VemenO9pZfNNPdLW9Ppwf7%2Bwe%2FbkXjpodb7sxMUYuFV1y53bS2UznguOVNJcLaW%2BJyVsJa2cVGKIsOPPdaLHibmI1EWp%2BsVFrc6rUt5siBFt18kbjVeAQab%2FR8gU1IT4GPqLenHLWsQfrLVpzOS7KXDVGUyenT%2BrrjZsJaRHmaXFstF3A%2FYX95U%2BpixZ7nTDeWniXKK8ZzqeIh6j1i4BqK4yAptjP8IxdpHdQ%2B%2BvOE6RGllyv1mXYilTqLDnyqMd1kwCjKJvExtdIz5z7eIHf%2BJmLRMBZ8sSEhd5O5rXFi%2BmhqFSX29AoPa0s5vDOb1QssCaM2a2i4yPocEy00QO1qdyLzzPHKRBWaaLG9SeYBJ5Fb5ZigJufOQ3FSc5nAxSZ7wGRyl6jlImUNKetsrBwhkW7whiiGsnvMOS0IJqNmrOzRxFJRsOa5Di4%2BB0rMQ%2F2emQQpIBVeouuhlio624ivy6p21NhhcAo4IzPE1cvKEqmZXfD6rhvhzwlFH5IBMkUQr0ZbPFZheyfKdS9JHqIEZ1eDj1ybBzobMOvXge9Je%2FJMN%2FhafVRK3DDRQLKCXHlyaAMymCuNu8pKyNkkCU20d2BSVmmYj5FDM5ySw4BXGtcOOkYpfe6AAPYbg1oRd6m0HORM6PLPql3TSORb0ZrOYF50YUvC7OuA6bcIWbPWXLxft2rImvDRZF7G2Ch1c%2Fm%2BKxo6P%2Fjc4Oyg9O762Iqj6FSPgDcpKsXcRa6Wkw2IPfN2Q9WznsSKJjJO1vRGMUqnqzlDoxbufHhdT%2FJs5s17TowOpD6XFOMh%2BwEOLS7s4YlGpXl8Gse56oCF0YfRy9WTrkbT76PHbvhGRh9Gj1eb0XTk3OjHjz%2F%2BBwAA%2F%2F8%3D"
+    },
+    {
+      "relation": "self",
+      "url": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest?patient=ZZZ0008&_revinclude=MedicationDispense%3Aprescription&_include=MedicationRequest%3Amedication&authoredon=ge2021-06-20&authoredon=le2023-06-20"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ015Y6K2HN1P8R1-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ015Y6K2HN1P8R1-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:34:13.033+00:00",
+          "source": "c17a4b59-cebd-4aa8-a740-17155d882127",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ015Y6K2HN1P8R1-1"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/40968451000116109",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "40968451000116109"
+          },
+          "display": "Ganciclovir 0.15% Tube Eye gel"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/4df12de7-1c11-4830-ab18-7d86fb25ae8c",
+            "type": "Location",
+            "display": "Morrow Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-19T15:21:07+00:00",
+        "requester": {
+          "reference": "Practitioner/63576",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "63576"
+          },
+          "display": "Dr Sander Abel | Doctor | 63576"
+        },
+        "recorder": {
+          "reference": "Practitioner/81dde516-4797-442f-865b-fda55643d90e",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 1,
+            "unit": "g"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01D8PJH7DFWFY6-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01D8PJH7DFWFY6-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T04:27:04.006+00:00",
+          "source": "d39689dc-54a5-4426-90ad-c9825a7a436e",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01D8PJH7DFWFY6-1"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10454391000116109",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10454391000116109"
+          },
+          "display": "Naproxen 750mg SR Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/9ac0e887-f201-4b46-9caf-d549820523e0",
+            "type": "Location",
+            "display": "Morvern Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-18T23:06:05+00:00",
+        "requester": {
+          "reference": "Practitioner/52049",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "52049"
+          },
+          "display": "Dr Marrisa Abdullah | Doctor | 52049"
+        },
+        "recorder": {
+          "reference": "Practitioner/73aa8fbf-7c48-4634-a47f-fe29a40c657c",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "patientInstruction": "Test long directions to see how much space they take up in the bottom row of the history grid when selecting an item.",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 14,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": false
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ011BF14FQH6B51-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ011BF14FQH6B51-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:31:45.873+00:00",
+          "source": "0fcdafce-cbec-4bf4-b44e-aaf63c203c0b",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ011BF14FQH6B51-1"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10454391000116109",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10454391000116109"
+          },
+          "display": "Naproxen 750mg SR Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/efdbbb7a-a13b-4056-878b-4096ad538689",
+            "type": "Location",
+            "display": "Morvern Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-18T22:40:48+00:00",
+        "requester": {
+          "reference": "Practitioner/52049",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "52049"
+          },
+          "display": "Dr Marrisa Abdullah | Doctor | 52049"
+        },
+        "recorder": {
+          "reference": "Practitioner/bc05ec82-2c8d-4a34-b0f6-97794502fd8f",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "patientInstruction": "Tablet ONE daily for leg pain when required",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 14,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ014R97WQ1CDD79-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ014R97WQ1CDD79-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:26:17.42+00:00",
+          "source": "65c76781-8b37-4fbf-a2ae-1c49f6b49b22",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ014R97WQ1CDD79-1"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10316361000116106",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10316361000116106"
+          },
+          "display": "Nicotine 4mg Fruit Gum"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/8a3b88c3-2a99-4fa6-b561-f53d3aedcc43",
+            "type": "Location",
+            "display": "Pearce Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-13T15:07:16+00:00",
+        "requester": {
+          "reference": "Practitioner/0c716ff5-14ea-44f8-98ef-dabf8bf4a4d4",
+          "type": "Practitioner",
+          "display": "Jim Headrick | Doctor"
+        },
+        "recorder": {
+          "reference": "Practitioner/78d7ea2a-fe20-4879-a519-7545e70e15e0",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "dispenseInterval": {
+            "value": 90,
+            "unit": "d"
+          },
+          "numberOfRepeatsAllowed": 1,
+          "quantity": {
+            "value": 384,
+            "unit": "Gum"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": false
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01RP96CCY86MM5-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01RP96CCY86MM5-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:28:14.87+00:00",
+          "source": "f68a751c-7a19-4c87-a2ce-ba1399641e85",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "extension": [
+              {
+                "url": "endorsementType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org.nz/fhir/CodeSystem/nzeps-endorsement-type",
+                      "display": "Dispensing Frequency"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endorsementValue",
+                "valueString": "Yes"
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-endorsement"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01RP96CCY86MM5-1"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10044651000116102",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10044651000116102"
+          },
+          "display": "Ibuprofen 200mg Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/113c738a-c52c-44a0-85f0-86931e611296",
+            "type": "Location",
+            "display": "Morvern Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-14T21:52:20+00:00",
+        "requester": {
+          "reference": "Practitioner/52049",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "52049"
+          },
+          "display": "Dr Marrisa Abdullah | Doctor | 52049"
+        },
+        "recorder": {
+          "reference": "Practitioner/57da0f80-8234-487b-975b-f203cab155ff",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "dispenseInterval": {
+            "value": 45,
+            "unit": "d"
+          },
+          "numberOfRepeatsAllowed": 2,
+          "quantity": {
+            "value": 30,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01FNN8DHRNKJX7-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01FNN8DHRNKJX7-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:33:57.293+00:00",
+          "source": "f023c516-8ada-4fd0-8b8a-bb1c8b4dd372",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01FNN8DHRNKJX7-1"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10035001000116109",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10035001000116109"
+          },
+          "display": "Tamoxifen 20mg Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/fd650100-74fe-474e-82ef-b7ee63e2eb31",
+            "type": "Location",
+            "display": "Idyll Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-18T23:08:57+00:00",
+        "requester": {
+          "reference": "Practitioner/94883",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "94883"
+          },
+          "display": "Dr Steven Taber | Doctor | 94883"
+        },
+        "recorder": {
+          "reference": "Practitioner/49cd4417-5c9a-444d-957f-96df0b986b7a",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 14,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01QVNQN4R5K3WA-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01QVNQN4R5K3WA-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-20T03:24:55.88+00:00",
+          "source": "041f96e4-3d85-49d3-970b-a26bf6fc2251",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "extension": [
+              {
+                "url": "endorsementType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org.nz/fhir/CodeSystem/nzeps-endorsement-type",
+                      "display": "Dispensing Frequency"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endorsementValue",
+                "valueString": "Yes"
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-endorsement"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01QVNQN4R5K3WA-1"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/44271691000116103",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "44271691000116103"
+          },
+          "display": "Aspirin 100mg EC Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/711e0fbf-d71b-46bf-8384-221d8ae1d556",
+            "type": "Location",
+            "display": "Morvern Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-11T13:37:54+00:00",
+        "requester": {
+          "reference": "Practitioner/52049",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "52049"
+          },
+          "display": "Dr Marrisa Abdullah | Doctor | 52049"
+        },
+        "recorder": {
+          "reference": "Practitioner/55112fe0-52ec-4fb4-8879-094400408a1a",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "dispenseInterval": {
+            "value": 0,
+            "unit": "d"
+          },
+          "numberOfRepeatsAllowed": 2,
+          "quantity": {
+            "value": 30,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01Y87NRQ604379-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01Y87NRQ604379-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-11-02T04:34:19.553+00:00",
+          "source": "bbae4c17-b1f3-4e19-9b28-ef783a6e6e4e",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01Y87NRQ604379-1"
+          }
+        ],
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10395031000116107",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10395031000116107"
+          },
+          "display": "Atorvastatin 20mg Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/35cfe0b2-b855-482c-a565-f281d2efc111",
+            "type": "Location",
+            "display": "Morvern Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-11-01T16:24:34+00:00",
+        "requester": {
+          "reference": "Practitioner/52049",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "52049"
+          },
+          "display": "Dr Marrisa Abdullah | Doctor | 52049"
+        },
+        "recorder": {
+          "reference": "Practitioner/5695b4b8-d565-417a-b5e2-f33c4b8b7b8b",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 30,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ01NGG84835CN4A-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ01NGG84835CN4A-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-29T04:06:43.38+00:00",
+          "source": "177ce839-9cb6-43c4-827b-a8cec0de5a47",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "extension": [
+              {
+                "url": "endorsementType",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org.nz/fhir/CodeSystem/nzeps-endorsement-type",
+                      "code": "CERTCOND",
+                      "display": "Certified Condition"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "endorsementValue",
+                "valueString": "Yes"
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-endorsement"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ01NGG84835CN4A-1"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10037311000116101",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10037311000116101"
+          },
+          "display": "Paracetamol 500mg Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/cd23d6b3-6cdd-49d4-a30c-b2197d03045d",
+            "type": "Location",
+            "display": "Westridge Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-28T16:05:44+00:00",
+        "requester": {
+          "reference": "Practitioner/3072",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "3072"
+          },
+          "display": "Dr Arick Abernathy | Doctor | 3072"
+        },
+        "recorder": {
+          "reference": "Practitioner/5f5f7744-7e77-4387-a458-85177a477793",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 30,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/MedicationRequest/1TNQ0175YFGY9MTQY9-1",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1TNQ0175YFGY9MTQY9-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-10-29T04:11:31.996+00:00",
+          "source": "07467c21-e500-4ce8-80fc-5018df76fe9b",
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "U",
+              "display": "unrestricted"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-status-type",
+            "valueCode": "Valid"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-action",
+            "valueCode": "None"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-instructions-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-modified",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-funding-category",
+            "valueString": "A4"
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-medication-claimable",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-private-item",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-force-notification",
+            "valueBoolean": false
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-notify",
+            "valueBoolean": false
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nzeps-scid-item-id",
+            "value": "1TNQ0175YFGY9MTQY9-1"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/10037311000116101",
+          "type": "Medication",
+          "identifier": {
+            "system": "http://nzmt.org.nz",
+            "value": "10037311000116101"
+          },
+          "display": "Paracetamol 500mg Tablets"
+        },
+        "subject": {
+          "reference": "Patient/ZZZ0008",
+          "type": "Patient",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "ZZZ0008"
+          },
+          "display": "Mr Test Patient | Male | 2001-01-01"
+        },
+        "supportingInformation": [
+          {
+            "reference": "Location/4bc0d179-3013-4154-87de-6188f277e685",
+            "type": "Location",
+            "display": "Hythe Medical Centre"
+          }
+        ],
+        "authoredOn": "2021-10-28T16:08:32+00:00",
+        "requester": {
+          "reference": "Practitioner/20449",
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://standards.digital.health.nz/ns/hpi-person-id",
+            "value": "20449"
+          },
+          "display": "Dr Tramel Pace | Doctor | 20449"
+        },
+        "recorder": {
+          "reference": "Practitioner/94ef16a9-06f8-443f-b37b-c8935eaae79f",
+          "type": "Practitioner",
+          "display": "Rudy Blair"
+        },
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 30,
+            "unit": "Tablets"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/40968451000116109",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "40968451000116109",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:19.535+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:ganciclovir 0.15% (1.5 mg/g) eye gel</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "S01AD09",
+                  "display": "Ganciclovir"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10230721000116103",
+                      "display": "ganciclovir"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "40968311000116103",
+                      "display": "Virgan"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "40968451000116109",
+              "display": "ganciclovir 0.15% (1.5 mg/g) eye gel"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "78025001",
+              "display": "Product containing ganciclovir (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "35408011000036106",
+              "display": "eye gel"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2158011000036103",
+                  "display": "ganciclovir"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 5,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10454391000116109",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10454391000116109",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:10:03.799+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:naproxen 750 mg tablet: modified release</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "M01AE02",
+                  "display": "Naproxen"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10058231000116101",
+                      "display": "naproxen"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10454341000116101",
+                      "display": "Naprosyn SR"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10454391000116109",
+              "display": "naproxen 750 mg tablet: modified release"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "11847009",
+              "display": "Product containing naproxen (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "261011000036101",
+              "display": "tablet: modified release"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2381011000036109",
+                  "display": "naproxen"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 750,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10454391000116109",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10454391000116109",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:10:03.799+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:naproxen 750 mg tablet: modified release</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "M01AE02",
+                  "display": "Naproxen"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10058231000116101",
+                      "display": "naproxen"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10454341000116101",
+                      "display": "Naprosyn SR"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10454391000116109",
+              "display": "naproxen 750 mg tablet: modified release"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "11847009",
+              "display": "Product containing naproxen (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "261011000036101",
+              "display": "tablet: modified release"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2381011000036109",
+                  "display": "naproxen"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 750,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10316361000116106",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10316361000116106",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:16.622+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:nicotine 4 mg gum</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "N07BA01",
+                  "display": "Nicotine"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10316091000116104",
+                      "display": "nicotine"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10459921000116109",
+                      "display": "Nicotinell"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10316361000116106",
+              "display": "nicotine 4 mg gum"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "323283001",
+              "display": "Product containing nicotine (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "125011000036107",
+              "display": "gum"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2393011000036109",
+                  "display": "nicotine"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 4,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10044651000116102",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10044651000116102",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:59.547+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:ibuprofen 200 mg tablet</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "M01AE01",
+                  "display": "Ibuprofen"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10013251000116106",
+                      "display": "ibuprofen"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10056621000116104",
+                      "display": "Apo-Ibuprofen"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10044651000116102",
+              "display": "ibuprofen 200 mg tablet"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38268001",
+              "display": "Product containing ibuprofen (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "154011000036109",
+              "display": "tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2211011000036101",
+                  "display": "ibuprofen"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 200,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10035001000116109",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10035001000116109",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:35.425+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:tamoxifen 20 mg tablet</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "L02BA01",
+                  "display": "Tamoxifen"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10034981000116101",
+                      "display": "tamoxifen"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10302421000116109",
+                      "display": "Genox"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10035001000116109",
+              "display": "tamoxifen 20 mg tablet"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "75959001",
+              "display": "Product containing tamoxifen (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "154011000036109",
+              "display": "tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2615011000036101",
+                  "display": "tamoxifen"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 20,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/44271691000116103",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "44271691000116103",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:10:28.723+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:aspirin 100 mg tablet: enteric-coated</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "B01AC06",
+                  "display": "Acetylsalicylic acid"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10010681000116105",
+                      "display": "aspirin"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10111711000116106",
+                      "display": "Cartia"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "44271691000116103",
+              "display": "aspirin 100 mg tablet: enteric-coated"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "7947003",
+              "display": "Product containing aspirin (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "266011000036106",
+              "display": "tablet: enteric-coated"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "1817011000036100",
+                  "display": "aspirin"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10395031000116107",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10395031000116107",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:10:03.247+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:atorvastatin 20 mg tablet</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "C10AA05",
+                  "display": "Atorvastatin"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10395011000116101",
+                      "display": "atorvastatin"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "20033661000116100",
+                      "display": "Lorstat"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10395031000116107",
+              "display": "atorvastatin 20 mg tablet"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "108600003",
+              "display": "Product containing atorvastatin (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "154011000036109",
+              "display": "tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "1821011000036101",
+                  "display": "atorvastatin"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 20,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10037311000116101",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10037311000116101",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:36.775+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:paracetamol 500 mg tablet</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "N02BE01",
+                  "display": "Paracetamol"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10037191000116105",
+                      "display": "paracetamol"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10507321000116102",
+                      "display": "Pacimol"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10037311000116101",
+              "display": "paracetamol 500 mg tablet"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90332006",
+              "display": "Product containing paracetamol (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "154011000036109",
+              "display": "tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2442011000036104",
+                  "display": "paracetamol"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://preprod-apibroker.whanautahi.com/mcv/fhir/Medication/10037311000116101",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "10037311000116101",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-02-20T06:09:36.775+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medication:paracetamol 500 mg tablet</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                  "code": "mpuu",
+                  "display": "MPUU"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "N02BE01",
+                  "display": "Paracetamol"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand",
+            "valueBoolean": false
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10037191000116105",
+                      "display": "paracetamol"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "mp",
+                      "display": "MP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://nzmt.org.nz",
+                      "code": "10507321000116102",
+                      "display": "Pacimol"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://standards.digital.health.nz/ns/nzmt-type-code",
+                      "code": "tp",
+                      "display": "TP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "10037311000116101",
+              "display": "paracetamol 500 mg tablet"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90332006",
+              "display": "Product containing paracetamol (medicinal product)"
+            }
+          ]
+        },
+        "status": "active",
+        "form": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "154011000036109",
+              "display": "tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://nzmt.org.nz",
+                  "code": "2442011000036104",
+                  "display": "paracetamol"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    }
+  ]
+}
