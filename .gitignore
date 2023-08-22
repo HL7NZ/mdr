@@ -2,8 +2,8 @@
 /input-cache
 /template
 /temp
-/output
 !/output/full-ig.zip
+/output
 /node_modules
 /localscripts
 

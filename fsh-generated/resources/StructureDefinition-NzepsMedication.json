@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "NzepsMedication",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzepsMedication",
-  "version": "0.1.0",
   "name": "NzepsMedication",
   "title": "Medication resource for use in NZ e-Prescription Service MDR",
   "status": "draft",
