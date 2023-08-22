@@ -1,4 +1,4 @@
-# ignore generated stuff/cache
+# ignore generated stuff/cache except the IG zip for download
 /input-cache
 /template
 /temp
