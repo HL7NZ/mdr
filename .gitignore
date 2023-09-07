@@ -6,4 +6,6 @@
 /output
 /node_modules
 /localscripts
+/fsh-generated
+
 

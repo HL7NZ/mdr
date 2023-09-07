@@ -96,7 +96,9 @@ menu:
     Nzeps-batch-id: NamingSystem-nzeps-batch-id.html
     Nzeps-scid-item-id: NamingSystem-nzeps-scid-item-id.html
     NZ-medicines-terminology: NamingSystem-nzmt.html
-  API: capabilityStatement.html
+  APIs: 
+    Consumer View API: ConsumerViewAPI.html
+    Provider View API: ProviderViewAPI.html
   Extensions: artifacts.html#structures-extension-definitions
   NZePS-FHIR Mapping: nzepsToFhir.html
   All Artefacts: artifacts.html
