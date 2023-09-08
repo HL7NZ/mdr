@@ -59,6 +59,13 @@
       },
       {
         "reference": {
+          "reference": "CapabilityStatement/ConsumerCapabliityStatement"
+        },
+        "name": "ConsumerCapabliityStatement",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzepsMedicationDispense"
         },
         "name": "Medication Dispense resource for use in NZ e-Prescription Service MDR",
@@ -79,20 +86,6 @@
         },
         "name": "Medication resource for use in NZ e-Prescription Service MDR",
         "description": "Medication resource for use in NZ e-Prescription Service Medicines Data Repository",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CapabilityStatement/NZ-MCV"
-        },
-        "name": "NZ-MCV",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CapabilityStatement/NZ-MDR"
-        },
-        "name": "NZ-MDR",
         "exampleBoolean": false
       },
       {
@@ -282,6 +275,13 @@
         "name": "Observation Body Weight Profile",
         "description": "FHIR Body Weight Profile",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/ProviderCapabilityStatement"
+        },
+        "name": "ProviderCapabilityStatement",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -300,13 +300,18 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "capabilityStatement.html",
-          "title": "Capability Statement",
-          "generation": "html"
+          "nameUrl": "ConsumerViewAPI.html",
+          "title": "Consumer View API",
+          "generation": "markdown"
         },
         {
           "nameUrl": "nzepsToFhir.html",
           "title": "Nzeps To Fhir",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ProviderViewAPI.html",
+          "title": "Provider View API",
           "generation": "markdown"
         },
         {

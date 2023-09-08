@@ -1,0 +1,1 @@
+Naming Systems provide a curated namespace used for the identification of the System element (generally a URL) used within the FHIR **Identifier** and **Coding** data types. They are defined using [NamingSystem](http://hl7.org/fhir/namingsystem.html) resources. 

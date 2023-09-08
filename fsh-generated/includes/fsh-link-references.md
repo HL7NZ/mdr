@@ -1,10 +1,9 @@
 [0c463c87-f6b1-4909-a7e9-df126054cffc]: Bundle-0c463c87-f6b1-4909-a7e9-df126054cffc.html
 [b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a]: Bundle-b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a.html
+[ConsumerCapabliityStatement]: CapabilityStatement-ConsumerCapabliityStatement.html
 [NzepsMedicationDispense]: StructureDefinition-NzepsMedicationDispense.html
 [NzepsMedicationRequest]: StructureDefinition-NzepsMedicationRequest.html
 [NzepsMedication]: StructureDefinition-NzepsMedication.html
-[NZ-MCV]: CapabilityStatement-NZ-MCV.html
-[NZ-MDR]: CapabilityStatement-NZ-MDR.html
 [NzepsNotify]: StructureDefinition-nzeps-notify.html
 [NzepsEndorsement]: StructureDefinition-nzeps-endorsement.html
 [NzepsForceNotification]: StructureDefinition-nzeps-force-notification.html
@@ -29,3 +28,4 @@
 [nzf-nzmt-type-search-parameter]: SearchParameter-nzf-nzmt-type-search-parameter.html
 [nzmt]: NamingSystem-nzmt.html
 [ObservationBodyweight]: StructureDefinition-bodyweight.html
+[ProviderCapabilityStatement]: CapabilityStatement-ProviderCapabilityStatement.html
