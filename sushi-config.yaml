@@ -92,8 +92,8 @@ menu:
     NZePS MedicationRequest: StructureDefinition-NzepsMedicationRequest.html
     NZePS Medication: StructureDefinition-NzepsMedication.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
-  Identifiers:
-    Identifiers and Naming Systems: identifers.html
+  NamingSystems:
+    Identifiers and Naming Systems: identifiers.html
     Nzeps-batch-id: NamingSystem-nzeps-batch-id.html
     Nzeps-scid-item-id: NamingSystem-nzeps-scid-item-id.html
     NZ-medicines-terminology: NamingSystem-nzmt.html
