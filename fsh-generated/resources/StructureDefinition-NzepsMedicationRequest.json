@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzepsMedicationRequest",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzepsMedicationRequest",
+  "version": "0.1.0",
   "name": "NzepsMedicationRequest",
   "title": "Medication Request resource for use in the NZ e-Prescription Service MDR",
   "status": "draft",
@@ -292,23 +293,8 @@
         ]
       },
       {
-        "id": "MedicationRequest.medication[x]",
-        "path": "MedicationRequest.medication[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "MedicationRequest.medication[x]:medicationCodeableConcept",
-        "path": "MedicationRequest.medication[x]",
-        "sliceName": "medicationCodeableConcept",
+        "id": "MedicationRequest.medicationCodeableConcept",
+        "path": "MedicationRequest.medicationCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [

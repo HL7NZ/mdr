@@ -39,12 +39,12 @@
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Identifiers
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">NamingSystems
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="identifers.html">Identifiers and Naming Systems</a>
+        <a href="identifiers.html">Identifiers and Naming Systems</a>
       </li>
       <li>
         <a href="NamingSystem-nzeps-batch-id.html">Nzeps-batch-id</a>
