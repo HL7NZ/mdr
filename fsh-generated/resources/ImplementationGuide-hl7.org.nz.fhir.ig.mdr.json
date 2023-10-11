@@ -320,6 +320,11 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "terminology.html",
+          "title": "Terminology",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "usecases.html",
           "title": "Usecases",
           "generation": "markdown"
