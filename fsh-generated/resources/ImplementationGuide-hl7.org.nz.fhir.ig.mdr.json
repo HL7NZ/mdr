@@ -31,13 +31,13 @@
     {
       "packageId": "hl7.org.nz.fhir.ig.formulary",
       "version": "current",
-      "uri": "http://hl7.org.nz/fhir/ig/formulary/ImplementationGuide/hl7.org.nz.fhir.ig.formulary",
+      "uri": "https://fhir-docs.nzf.org.nz/ImplementationGuide/hl7.org.nz.fhir.ig.formulary",
       "id": "hl7_org_nz_fhir_ig_formulary"
     },
     {
       "packageId": "fhir.org.nz.ig.base",
-      "version": "current",
-      "uri": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
+      "version": "2.0.0",
+      "uri": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
       "id": "fhir_org_nz_ig_base"
     }
   ],

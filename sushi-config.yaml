@@ -28,7 +28,7 @@ publisher:
 
 dependencies:
   hl7.org.nz.fhir.ig.formulary: current
-  fhir.org.nz.ig.base: current
+  fhir.org.nz.ig.base: 2.0.0
   
 #    uri: http://hl7.org.nz/fhir
 #    id: fhir.org.nz.ig.base

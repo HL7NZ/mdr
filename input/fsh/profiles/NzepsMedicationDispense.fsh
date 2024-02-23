@@ -8,6 +8,8 @@ Description:    "Medication Dispense resource for use in NZ e-Prescription Servi
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 
+* medication[x] only CodeableConcept
+
 * medicationCodeableConcept only CodeableConcept
 * medicationCodeableConcept from http://nzmt.org.nz/vs (preferred)
 
