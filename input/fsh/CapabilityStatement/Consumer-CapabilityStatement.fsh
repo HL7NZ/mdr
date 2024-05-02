@@ -32,7 +32,7 @@ Usage: #definition
 * rest.resource[=].conditionalDelete = #not-supported
 * rest.resource[=].referencePolicy[0] = #literal
 * rest.resource[=].referencePolicy[+] = #local
-* rest.resource[=].searchInclude = "MedicationRequest:medication"
+//* rest.resource[=].searchInclude = "MedicationRequest:medication"
 * rest.resource[=].searchRevInclude = "MedicationDispense:prescription"
 * rest.resource[=].searchParam[0].name = "_lastUpdated"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"
@@ -92,24 +92,24 @@ Usage: #definition
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/medications-status"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].documentation = "Returns dispenses with a specified dispense status"
-* rest.resource[+].type = #Medication
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Medication"
-* rest.resource[=].interaction.code = #read
-* rest.resource[=].versioning = #no-version
-* rest.resource[=].readHistory = false
-* rest.resource[=].updateCreate = false
-* rest.resource[=].conditionalCreate = false
-* rest.resource[=].conditionalRead = #not-supported
-* rest.resource[=].conditionalUpdate = false
-* rest.resource[=].conditionalDelete = #not-supported
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Returns medications for this code (NZULM)"
-* rest.resource[=].searchParam[+].name = "_id"
-* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Logical id of this artifact (NZULM)"
+//* rest.resource[+].type = #Medication
+//* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Medication"
+//* rest.resource[=].interaction.code = #read
+//* rest.resource[=].versioning = #no-version
+//* rest.resource[=].readHistory = false
+//* rest.resource[=].updateCreate = false
+//* rest.resource[=].conditionalCreate = false
+//* rest.resource[=].conditionalRead = #not-supported
+//* rest.resource[=].conditionalUpdate = false
+//* rest.resource[=].conditionalDelete = #not-supported
+//* rest.resource[=].searchParam[0].name = "code"
+//* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-code"
+//* rest.resource[=].searchParam[=].type = #token
+//* rest.resource[=].searchParam[=].documentation = "Returns medications for this code (NZULM)"
+//* rest.resource[=].searchParam[+].name = "_id"
+//* rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Resource-id"
+//* rest.resource[=].searchParam[=].type = #token
+//* rest.resource[=].searchParam[=].documentation = "Logical id of this artifact (NZULM)"
 * rest.searchParam[0].name = "_count"
 * rest.searchParam[=].type = #number
 * rest.searchParam[=].documentation = "How many resources to return"

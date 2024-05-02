@@ -20,7 +20,6 @@
     }
   ],
   "url": "http://hl7.org.nz/fhir/ig/mdr/StructureDefinition/bodyweight",
-  "version": "0.1.0",
   "name": "ObservationBodyweight",
   "title": "Observation Body Weight Profile",
   "status": "draft",
@@ -134,8 +133,23 @@
         "fixedCode": "29463-7"
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
         "min": 0,
         "max": "1",
         "type": [
@@ -145,27 +159,27 @@
         ]
       },
       {
-        "id": "Observation.valueQuantity.value",
-        "path": "Observation.valueQuantity.value",
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.unit",
-        "path": "Observation.valueQuantity.unit",
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.system",
-        "path": "Observation.valueQuantity.system",
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
         "min": 1,
         "fixedUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.code",
-        "path": "Observation.valueQuantity.code",
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
         "short": "Coded responses from the common UCUM units for vital signs value set.",
         "definition": "Coded responses from the common UCUM units for vital signs value set.",
         "min": 1,

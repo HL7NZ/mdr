@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "NzepsMedicationDispense",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzepsMedicationDispense",
-  "version": "0.1.0",
   "name": "NzepsMedicationDispense",
   "title": "Medication Dispense resource for use in NZ e-Prescription Service MDR",
   "status": "draft",
@@ -145,27 +144,11 @@
       {
         "id": "MedicationDispense.medication[x]",
         "path": "MedicationDispense.medication[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "id": "MedicationDispense.medicationCodeableConcept",
-        "path": "MedicationDispense.medicationCodeableConcept",
-        "min": 1,
-        "max": "1",
+        ],
         "binding": {
           "strength": "preferred",
           "valueSet": "http://nzmt.org.nz/vs"
