@@ -45,10 +45,23 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/NzepsMedication"
+          "reference": "Bundle/0c463c87-f6b1-4909-a7e9-df126054cffc"
         },
-        "name": "Medication resource for use in NZ e-Prescription Service MDR",
-        "description": "Medication resource for use in NZ e-Prescription Service Medicines Data Repository",
+        "name": "0c463c87-f6b1-4909-a7e9-df126054cffc",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Bundle/b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a"
+        },
+        "name": "b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/ConsumerCapabliityStatement"
+        },
+        "name": "ConsumerCapabliityStatement",
         "exampleBoolean": false
       },
       {
@@ -69,10 +82,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/bodyweight"
+          "reference": "StructureDefinition/nzeps-notify"
         },
-        "name": "Observation Body Weight Profile",
-        "description": "FHIR Body Weight Profile",
+        "name": "NZePS Active Notification Indicator",
+        "description": "NZePS Active Notification Indicator",
         "exampleBoolean": false
       },
       {
@@ -101,10 +114,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzeps-instructions-modified"
+          "reference": "StructureDefinition/nzeps-scriptno-local"
         },
-        "name": "NZePS Patient Instructions Modification Indicator",
-        "description": "NZePS Patients Instructions modification indicator",
+        "name": "NZePS Local Script Number",
+        "description": "NZ Pharmacy Claim Number.",
         "exampleBoolean": false
       },
       {
@@ -141,22 +154,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzeps-medication-modified"
-        },
-        "name": "NZePS Patient Medication Modification Indicator",
-        "description": "NZePS medication modification indicator",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/nzeps-notify"
-        },
-        "name": "NZePS Active Notification Indicator",
-        "description": "NZePS Active Notification Indicator",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/nzeps-pharmacy-approval-original"
         },
         "name": "NZePS Original Pharmacy Approval Number",
@@ -165,18 +162,26 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzeps-private-item"
+          "reference": "StructureDefinition/nzeps-instructions-modified"
         },
-        "name": "NZePS Private Item Indicator",
-        "description": "NZePS Private Item Indicator",
+        "name": "NZePS Patient Instructions Modification Indicator",
+        "description": "NZePS Patients Instructions modification indicator",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzeps-scriptno-local"
+          "reference": "StructureDefinition/nzeps-medication-modified"
         },
-        "name": "NZePS Local Script Number",
-        "description": "NZ Pharmacy Claim Number.",
+        "name": "NZePS Patient Medication Modification Indicator",
+        "description": "NZePS medication modification indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzeps-private-item"
+        },
+        "name": "NZePS Private Item Indicator",
+        "description": "NZePS Private Item Indicator",
         "exampleBoolean": false
       },
       {
@@ -229,20 +234,6 @@
       },
       {
         "reference": {
-          "reference": "CapabilityStatement/ConsumerCapabliityStatement"
-        },
-        "name": "ConsumerCapabliityStatement",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CapabilityStatement/ProviderCapabilityStatement"
-        },
-        "name": "ProviderCapabilityStatement",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "NamingSystem/nzeps-batch-id"
         },
         "name": "nzeps-batch-id",
@@ -271,17 +262,18 @@
       },
       {
         "reference": {
-          "reference": "Bundle/b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a"
+          "reference": "StructureDefinition/bodyweight"
         },
-        "name": "b7cbd26f-7d7b-48fe-9bda-e8dc5ce1901a",
-        "exampleBoolean": true
+        "name": "Observation Body Weight Profile",
+        "description": "FHIR Body Weight Profile",
+        "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "Bundle/0c463c87-f6b1-4909-a7e9-df126054cffc"
+          "reference": "CapabilityStatement/ProviderCapabilityStatement"
         },
-        "name": "0c463c87-f6b1-4909-a7e9-df126054cffc",
-        "exampleBoolean": true
+        "name": "ProviderCapabilityStatement",
+        "exampleBoolean": false
       }
     ],
     "page": {

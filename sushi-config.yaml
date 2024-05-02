@@ -90,7 +90,6 @@ menu:
   Profiles: 
     NZePS MedicationDispense: StructureDefinition-NzepsMedicationDispense.html
     NZePS MedicationRequest: StructureDefinition-NzepsMedicationRequest.html
-    NZePS Medication: StructureDefinition-NzepsMedication.html
     ObservationBodyweight: StructureDefinition-bodyweight.html
   NamingSystems:
     Identifiers and Naming Systems: identifiers.html

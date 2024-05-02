@@ -31,9 +31,6 @@
         <a href="StructureDefinition-NzepsMedicationRequest.html">NZePS MedicationRequest</a>
       </li>
       <li>
-        <a href="StructureDefinition-NzepsMedication.html">NZePS Medication</a>
-      </li>
-      <li>
         <a href="StructureDefinition-bodyweight.html">ObservationBodyweight</a>
       </li>
     </ul>
