@@ -9,7 +9,7 @@ name: MedicinesDataRepository
 title: Medicines Data Repository Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.2.0
 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 fhirVersion: 4.0.1 
 copyrightYear: 2023+
@@ -28,7 +28,7 @@ publisher:
 
 dependencies:
   hl7.org.nz.fhir.ig.formulary: current
-  fhir.org.nz.ig.base: 2.0.0
+  fhir.org.nz.ig.base: 3.0.1
   
 #    uri: http://hl7.org.nz/fhir
 #    id: fhir.org.nz.ig.base
