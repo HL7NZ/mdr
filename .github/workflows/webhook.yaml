@@ -27,10 +27,10 @@ jobs:
             curl -X POST "https://fhir-ig-builder.api.digital.health.nz/v1/build" \
               -H "Content-Type: application/json" \
               -H "x-api-key: ${{ secrets.API_KEY }}" \
-              -d '{"gitBranch": "master", "igSourceGitUrl": "https://github.com/tewhatuora/fhir-nzps.git", "publishToRegistry": false}'
+              -d '{"gitBranch": "master", "igSourceGitUrl": "https://github.com/HL7NZ/mdr.git", "publishToRegistry": false}'
           elif [[ "${{ env.BRANCH_NAME }}" == "uat" ]]; then
             curl -X POST "https://fhir-ig-builder.api-uat.digital.health.nz/v1/build" \
               -H "Content-Type: application/json" \
               -H "x-api-key: ${{ secrets.API_KEY_UAT }}" \
-              -d '{"gitBranch": "uat", "igSourceGitUrl": "https://github.com/tewhatuora/fhir-nzps.git", "publishToRegistry": false}'
+              -d '{"gitBranch": "uat", "igSourceGitUrl": "https://github.com/HL7NZ/mdr.git", "publishToRegistry": false}'
           fi
