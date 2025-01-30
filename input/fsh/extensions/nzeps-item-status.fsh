@@ -17,4 +17,4 @@ Context: MedicationRequest
 * value[x] ^label = "Prescription Item Status"
 * value[x] ^short = "Prescription Item Status"
 * value[x] ^definition = "Prescription Item Status."
-* value[x] ^isModifier = false
+* value[x] ^isModifier = false 
